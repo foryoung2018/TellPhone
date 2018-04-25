@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="htcSwitchStyle" format="reference" />
+
+    <declare-styleable name="HtcSwitch">
+        <attr name="android:switchTextAppearance" />
+        <attr name="android:disabledAlpha" />
+        <!-- outer -->
+        <attr name="android:drawable" />
+        <!-- rest -->
+        <attr name="android:icon" />
+    </declare-styleable>
+
+</resources>

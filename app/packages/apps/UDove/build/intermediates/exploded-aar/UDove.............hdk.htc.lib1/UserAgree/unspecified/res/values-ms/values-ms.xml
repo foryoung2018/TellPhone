@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-ms/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Jangan tanya saya lagi</string>
+    <string name="default_message">Aplikasi ini menggunakan data mudah alih atau Wi-Fi. Semak dengan pembawa tempatan anda untuk mengetahui harga penggunaan data yang tepat.</string>
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string-array name="st_font_size_levels">
+        <item>小</item><!--Small-->
+        <item>中</item><!--Medium-->
+        <item>大</item><!--Large-->
+        <item>特大</item><!--Extra large-->
+        <item>極大</item><!--Huge-->
+    </string-array>
+    <string-array name="weeklayout_secondary_text">
+        <item>日</item><!--SU-->
+        <item>月</item><!--M-->
+        <item>火</item><!--TU-->
+        <item>水</item><!--W-->
+        <item>木</item><!--TH-->
+        <item>金</item><!--F-->
+        <item>土</item><!--SA-->
+    </string-array>
+    <dimen name="b_separator_secondary_xs">15sp</dimen>
+    <dimen name="b_toggle_primary_m">16sp</dimen>
+    <dimen name="label_off_m">14sp</dimen>
+    <dimen name="label_on_m">14sp</dimen>
+    <dimen name="list_body_s">19sp</dimen>
+    <dimen name="list_body_xl">31sp</dimen>
+    <dimen name="list_body_xs">16sp</dimen>
+    <dimen name="separator_secondary_xs">16sp</dimen>
+    <dimen name="time_pick_primary_s">35sp</dimen>
+    <dimen name="toggle_primary_m">16sp</dimen>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string name="accessibility_tap_action">ダブルタップで実行</string>
+    <string name="add_comments">コメントを追加</string>
+    <string name="am">午前</string>
+    <string name="button_hide_caption">タイトルを表示しない</string>
+    <string name="button_hide_description">説明を非表示</string>
+    <string name="button_show_caption">タイトルを表示</string>
+    <string name="button_show_description">説明を表示</string>
+    <string name="carousel_title">タブを編集</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ja/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Android Wearアプリの更新が必要です。"</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Android Wearアプリを使用するにはアプリの更新が必要です。"</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wearの更新"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Play開発者サービスの有効化"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"このアプリの実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Play開発者サービスの有効化"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>によるリクエスト"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Play開発者サービスの入手"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Play開発者サービスの入手"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"無効なアカウント"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"アプリではGoogle Play開発者サービスを有効にする必要があります"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play開発者サービスに接続するには、データ接続が必要です。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"ネットワークエラー"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"アプリではGoogle Play開発者サービスをインストールする必要があります"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"アプリではGoogle Play開発者サービスを更新する必要があります"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play開発者サービスで原因不明の問題が発生しました。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play開発者サービス"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"このアプリの実行には、Google Play開発者サービスの更新が必要です。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Play開発者サービスの更新"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"端末で開く"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Googleでログイン"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string name="common_string_hint_search_people">連絡先を検索</string>
+    <string name="common_string_open_contact">連絡先を開く</string>
+    <string name="common_string_save_to_existing_contact">既存の連絡先に保存</string>
+    <string name="common_string_save_to_people">連絡先を保存</string>
+    <string name="common_string_share_title">共有方法</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1/UserAgree/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">今後表示しない</string>
+    <string name="default_message">このアプリはモバイルデータか Wi-Fi を使用します。データ使用にかかる追加料金については、お近くのモバイル通信会社にお尋ねください。</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string name="done">完了</string>
+    <string name="label_day">日</string>
+    <string name="label_hour">時</string>
+    <string name="label_minute">分</string>
+    <string name="label_month">月</string>
+    <string name="label_second">秒</string>
+    <string name="label_year">年</string>
+    <string name="license_dialog_content">この電話で使用される一部のアイコンは、Google がデザインし、<a href="https://creativecommons.org/licenses/by/4.0/legalcode">クリエイティブ コモンズ ライセンス表示 4.0</a> の条件のもとに HTC が改変しました。</string>
+    <string name="license_dialog_title">Google Material Icons</string>
+    <string name="ls_doubletap_drag">ダブルタップしてドラッグすると調整できます</string>
+    <string name="ls_edit_number_before_calling">通話の前に番号を編集</string>
+    <string name="ls_open_in_map">マップで開く</string>
+    <string name="ls_tablet_storage_error">タブレット PC のメモリでエラーが発生しました。デバイスをリブートするか、メモリをフォーマットしてください。</string>
+    <string name="menu_crop">トリミング</string>
+    <string name="menu_delete">削除</string>
+    <string name="menu_properties">詳細</string>
+    <string name="menu_protect_info">保護情報</string>
+    <string name="menu_save_to_my_favorite">お気に入りに設定</string>
+    <string name="menu_send_photo_link_by_email">写真のリンクを共有</string>
+    <string name="menu_set_as">設定内容</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_show_on_map">マップに表示</string>
+    <string name="menu_slideshow">スライドショー</string>
+    <string name="menu_view_full">表示</string>
+    <string name="menu_view_video">再生</string>
+    <string name="meun_rotate">回転</string>
+    <string name="nn_unknown_error">"不明なエラー"</string>
+    <string name="no">いいえ</string>
+    <string name="pm">午後</string>
+    <string name="quickselection_share">共有方法</string>
+    <string name="refresh">更新</string>
+    <string name="reminderview_common_unlock_hint_icon">アイコンを上にプルします</string>
+    <string name="reminderview_common_unlock_hint_up">上に引いてロックを解除</string>
+    <string name="st_action_bar_pull_down">離すと更新します</string>
+    <string name="st_action_bar_updating">更新中...</string>
+    <string name="st_draggable_item">ドラッグ可能なアイテム</string>
+    <string name="st_loading">読み込んでいます...</string>
+    <string name="st_more">詳細</string>
+    <string name="st_pull_down_refresh">下に引くと更新します</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string name="tab_remove_dialog_message">1 個のタブが残っています。このアプリに別のタブを追加するには、メニューから [タブを編集/フィルタ] を選択してください。</string>
+    <string name="unremovable_warning_text">このタブは削除できません</string>
+    <string name="va_back">戻る</string>
+    <string name="va_call">ダイヤル</string>
+    <string name="va_cancel">キャンセル</string>
+    <string name="va_clear">"消去"</string>
+    <string name="va_close">閉じる</string>
+    <string name="va_copy">コピー</string>
+    <string name="va_download">ダウンロード</string>
+    <string name="va_downloading">ダウンロード中</string>
+    <string name="va_finish">完了</string>
+    <string name="va_hide">"表示しない"</string>
+    <string name="va_move_above">上へ移動</string>
+    <string name="va_move_below">下へ移動</string>
+    <string name="va_next">次へ</string>
+    <string name="va_ok">OK</string>
+    <string name="va_open">開く</string>
+    <string name="va_reset">リセット</string>
+    <string name="va_send_mail">メールを送信する</string>
+    <string name="va_send_message">メッセージを送信する</string>
+    <string name="va_show_all">すべて表示</string>
+    <string name="yes">はい</string>
+</resources>

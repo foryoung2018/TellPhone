@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PopupAnimationStyle">
+        <item name="android:dropDownAnchor">@style/DropDownDownTopCenter</item>
+        <item name="android:dropDownHeight">@style/DropDownDownTopEast</item>
+        <item name="android:dropDownSelector">@style/DropDownDownTopWest</item>
+        <item name="android:dropDownWidth">@style/DropDownUpBottomCenter</item>
+        <item name="popupBubbleTriangle">@style/DropDownUpBottomEast</item>
+        <item name="popupBubbleLeftTriangle">@style/DropDownUpBottomWest</item>
+        <item name="android:dropDownHintAppearance">@style/DropDownCenter</item>
+        <item name="android:drawableLeft">@style/DropDownLeft</item>
+        <item name="android:drawable">@style/DropDownRight</item>
+    </style>
+
+    <style name="DropDownDownTopCenter">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out</item>
+    </style>
+    <style name="DropDownDownTopEast">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_east</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_east</item>
+    </style>
+    <style name="DropDownDownTopWest">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_west</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_west</item>
+    </style>
+    <style name="DropDownUpBottomCenter">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="DropDownUpBottomEast">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_from_bottom_east</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_from_bottom_east</item>
+    </style>
+    <style name="DropDownUpBottomWest">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_from_bottom_west</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_from_bottom_west</item>
+    </style>
+    <style name="DropDownLeft">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_left</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_left</item>
+    </style>
+    <style name="DropDownRight">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_right</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_right</item>
+    </style>
+    <style name="DropDownCenter">
+        <item name="android:windowEnterAnimation">@anim/scale_grow_fade_in_center</item>
+        <item name="android:windowExitAnimation">@anim/scale_shrink_fade_out_center</item>
+    </style>
+
+</resources>

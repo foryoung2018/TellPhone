@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">CommonControlTestLibrary</string>
+    <string name="emailString">abcd@google.com</string>
+    <string name="hintString">Hint</string>
+    <string name="englishString">OK</string>
+    <string name="simplifiedChineseString">确定</string>
+    <string name="traditionalChineseString">確定</string>
+    <string name="arabicString">موافق</string>
+    <string name="israelString">אישור</string>
+    <string name="numberString">1234</string>
+
+</resources>

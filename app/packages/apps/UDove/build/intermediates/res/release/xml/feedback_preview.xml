@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="@string/preview_error_category"
+        android:key="preview_error" >
+        <Preference
+            android:key="error_type"
+            android:title="@string/error_type" />
+        <Preference
+            android:key="error_package_name"
+            android:title="@string/error_package_name" />
+        <Preference
+            android:key="error_package_version"
+            android:title="@string/error_package_version" />
+        <Preference
+            android:key="error_package_version_name"
+            android:title="@string/error_package_version_name" />
+        <Preference
+            android:key="error_installed_by"
+            android:title="@string/error_installed_by" />
+        <Preference
+            android:key="error_process_name"
+            android:title="@string/error_process_name" />
+        <Preference
+            android:key="error_time"
+            android:title="@string/error_time" />
+        <Preference
+            android:key="error_up_time"
+            android:title="@string/error_up_time" />
+        <Preference
+            android:key="error_awake_time"
+            android:title="@string/error_awake_time" />
+        <Preference
+            android:key="error_system_app"
+            android:title="@string/error_system_app" />
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="@string/preview_system_category"
+        android:key="preview_system_category" >
+        <Preference
+            android:key="system_device"
+            android:title="@string/system_device" />
+        <Preference
+            android:key="system_build_id"
+            android:title="@string/system_build_id" />
+        <Preference
+            android:key="system_build_type"
+            android:title="@string/system_build_type" />
+        <Preference
+            android:key="system_model"
+            android:title="@string/system_model" />
+        <Preference
+            android:key="system_product"
+            android:title="@string/system_product" />
+        <Preference
+            android:key="system_sdk_version"
+            android:title="@string/system_sdk_version" />
+        <Preference
+            android:key="system_release"
+            android:title="@string/system_release" />
+        <Preference
+            android:key="system_incremental_version"
+            android:title="@string/system_incremental_version" />
+        <!-- remove code name & board from preview
+        <Preference
+            android:key="system_code_name"
+            android:title="@string/system_code_name" />
+        <Preference
+            android:key="system_board"
+            android:title="@string/system_board" />
+        -->
+        <Preference
+            android:key="system_brand"
+            android:title="@string/system_brand" />
+        <!-- remove system & event logs & running app
+        <Preference
+            android:key="system_running_applications"
+            android:title="@string/system_running_applications" />
+        <Preference
+            android:key="system_system_log"
+            android:title="@string/system_system_log" />
+        <Preference
+            android:key="system_event_log"
+            android:title="@string/system_event_log" />
+        -->
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="@string/preview_crash_category"
+        android:key="preview_crash_category" >
+        <Preference
+            android:key="crash_exception_class"
+            android:title="@string/crash_exception_class" />
+        <Preference
+            android:key="crash_source_file"
+            android:title="@string/crash_source_file" />
+        <Preference
+            android:key="crash_source_class"
+            android:title="@string/crash_source_class" />
+        <Preference
+            android:key="crash_source_method"
+            android:title="@string/crash_source_method" />
+        <Preference
+            android:key="crash_line_number"
+            android:title="@string/crash_line_number" />
+        <Preference
+            android:key="crash_stack_trace"
+            android:title="@string/crash_stack_trace" />
+        <Preference
+            android:key="crash_log"
+            android:title="@string/system_crash_log" />
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="@string/preview_anr_category"
+        android:key="preview_anr_category" >
+        <Preference
+            android:key="anr_activity"
+            android:title="@string/anr_activity" />
+        <Preference
+            android:key="anr_caused_by"
+            android:title="@string/anr_caused_by" />
+        <Preference
+            android:key="anr_additional_info"
+            android:title="@string/anr_additional_info" />
+        <Preference
+            android:key="anr_stack_traces"
+            android:title="@string/anr_stack_traces" />
+        <Preference
+            android:key="anr_crash_log"
+            android:title="@string/system_crash_log" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/preview_system_crash_category"
+        android:key="preview_system_crash_category" >
+        <Preference
+            android:key="system_crash_log"
+            android:title="@string/system_crash_log" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/preview_radio_category"
+        android:key="preview_radio_category" >
+        <Preference
+            android:key="radio_mcc"
+            android:title="@string/radio_mcc" />
+        <Preference
+            android:key="radio_mnc"
+            android:title="@string/radio_mnc" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>
+<!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/res/xml/feedback_preview.xml -->

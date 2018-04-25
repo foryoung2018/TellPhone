@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoTest4ThemeTestCaseTest</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="footerbutton_longstring">btnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtnbtn</string>
+    <string name="footerbutton_shortstring">btn</string>
+    <string name="footerbutton_longstring_space">b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n b t n </string>
+</resources>

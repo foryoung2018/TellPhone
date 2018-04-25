@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-iw/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">אל תשאל שוב</string>
+    <string name="default_message">אפליקציה זו צורכת נתונים באמצעות רשת הנתונים הסלולרית או Wi-Fi. למידע נוסף על חיובי צריכת נתונים, פנה לספקית הסלולרית.</string>
+</resources>

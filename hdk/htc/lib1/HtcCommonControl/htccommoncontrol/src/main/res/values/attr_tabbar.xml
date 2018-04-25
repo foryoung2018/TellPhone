@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HtcTabBar">
+        <!-- Tab TextAppearance -->
+        <attr name="android:itemTextAppearance" />
+        <attr name="android:height" />
+        <!-- Indicator height -->
+        <attr name="android:rowHeight" />
+        <!-- DarkTextBackground -->
+        <attr name="android:panelBackground" />
+        <!-- LightTextBackground -->
+        <attr name="android:panelFullBackground" />
+        <!-- DarkTabBkgColor -->
+        <attr name="android:panelColorForeground" />
+        <!-- LightTabBkgColor -->
+        <attr name="android:panelColorBackground" />
+        <!-- DarkTextColor -->
+        <attr name="android:textColorPrimary" />
+        <!-- LightTextColor -->
+        <attr name="android:textColorPrimaryInverse" />
+    </declare-styleable>
+
+    <declare-styleable name="HtcTabReorder">
+        <attr name="android:itemTextAppearance" />
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <attr name="tabbarStyle" format="reference" />
+    <attr name="tabReorderStyle" format="reference" />
+</resources>

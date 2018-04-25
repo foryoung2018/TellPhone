@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- [ToDo] Due to UIGL do not define dark style, define this style for HtcListItemLabeledLayout temporary -->
+    <style name="darklist_body_primary_m" parent="@style/light">
+        <item name="android:textSize">@dimen/list_body_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="darkseparator_primary_l" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_primary_l</item>
+        <item name="android:textColor">@color/dark_separatorfont_color</item>
+    </style>
+    <!-- [ToDo] Due to UIGL do not define dark style, define this style for HtcListItemMessageBody temporary -->
+    <style name="darkinfo_primary_m" parent="@style/regular">
+        <item name="android:textSize">@dimen/info_primary_m</item>
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="darkseparator_secondary_m" parent="@style/bold_condensed">
+        <item name="android:textSize">@dimen/separator_secondary_m</item>
+        <item name="android:textColor">@color/light_tabfont</item>
+    </style>
+    <!-- [ToDo] Due to UIGL do not define dark style, define this style for HtcListItem7Badges1LineBottomStamp & HtcListItemBubbleCount temporary -->
+    <style name="fixed_darknotification_info_m" parent="@style/notification_info_m">
+        <item name="android:textSize">@dimen/fixed_notification_info_m</item>
+        <item name="android:textColor">?dark_category_color</item>
+    </style>
+    <!-- [ToDo] Due to UIGL do not define dark style, define this style for HtcListItemSeparator temporary -->
+    <style name="fixed_darkseparator_primary_m" parent="@style/separator_primary_m">
+        <item name="android:textSize">@dimen/fixed_separator_primary_m</item>
+        <item name="android:textColor">@color/dark_separatorfont_color</item>
+    </style>
+    <!-- [ToDo] Due to UIGL do not define dark style, define this style for HtcListItem2TextComponent temporary -->
+    <style name="darklist_secondary_m_temp" parent="@style/list_secondary_m">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <!-- [ToDo] Due to UIGL do not define dark style, define this style for HtcListItemLabeledLayout temporary -->
+    <style name="darkseparator_primary_l_temp" parent="@style/separator_primary_l">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+
+</resources>

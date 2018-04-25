@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/htc_tos"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <WebView 
+        android:id="@+id/tos_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+    <TextView 
+        android:id="@+id/error_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/spacing_2"
+        android:layout_marginStart="@dimen/margin_l"
+        android:layout_marginEnd="@dimen/margin_l"
+        style="@style/list_body_primary_m"
+        android:visibility="gone" />
+    
+</RelativeLayout>
+<!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/res/layout/specific_feedback_tos.xml -->

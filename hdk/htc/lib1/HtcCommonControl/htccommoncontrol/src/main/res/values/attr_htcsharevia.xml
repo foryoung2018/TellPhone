@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="HtcShareVia">
+        <attr name="android:itemTextAppearance" />
+        <attr name="android:headerBackground" />
+        <attr name="android:listSelector" />
+        <attr name="android:panelBackground" />
+    </declare-styleable>
+    <attr name="htcShareViaStyle" format="reference" />
+    <attr name="htcShareActivityTheme" format="reference" />
+
+</resources>

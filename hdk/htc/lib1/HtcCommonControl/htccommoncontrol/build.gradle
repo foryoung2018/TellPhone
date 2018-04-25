@@ -1,0 +1,135 @@
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+apply plugin: 'checkstyle'
+apply plugin: 'com.android.library'
+apply from: "${project.projectDir}/publish2maven.gradle"
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    provided 'com.htc.lib:customization:1.0.0@jar'
+    provided 'com.htc.lib:hdkutil:1.0.0@jar'
+    provided 'com.htc.lib:htcconfiguration:1.0.0@jar'
+    provided 'com.htc.lib:htcdebugflag:1.0.0@jar'
+    provided 'com.htc.lib:htctheme:1.0.742306@jar'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+}
+
+task findbugs (type: FindBugs, dependsOn: assembleDebug) {
+
+    description 'Run findbugs'
+    group 'verification'
+
+    classes = fileTree("$buildDir/intermediates/classes/debug")
+    source = fileTree('src/main/java')
+    classpath = files()
+
+
+    effort = 'max'
+    ignoreFailures = true
+
+    //        excludeFilter = file("./config/findbugs/exclude.xml")
+
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}
+
+
+task pmd (type: Pmd, dependsOn: assembleDebug) {
+
+    description 'Run pmd'
+    group 'verification'
+
+    ignoreFailures = true
+
+    ruleSets = ["java-android", "java-basic", "java-braces", "java-clone",
+        "java-codesize", "java-comments", "java-controversial",
+        "java-coupling", "java-design", "java-empty",
+        "java-finalizers", "java-imports",
+        "java-j2ee", "java-javabeans", "java-junit",
+        "java-logging-jakarta-commons", "java-logging-java", "java-migrating",
+        "java-naming", "java-optimizations", "java-strictexception", "java-strings",
+        "java-sunsecure", "java-unnecessary", "java-unusedcode"]
+
+    source = fileTree('src/main/java')
+
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}
+
+
+task checkstyle(type: Checkstyle) {
+    description 'Run CheckStyle'
+    group 'verification'
+
+    source = fileTree('src/main/java')
+    include '**/*.java'
+    exclude '**/gen/**'
+    // empty classpath
+    classpath = files()
+
+    ignoreFailures = true
+    reports {
+        xml.enabled = true
+    }
+}
+
+getRootProject().buildscript.configurations.classpath.allDependencies.findAll { it.getGroup() == "com.android.tools.build" && it.getName() == "gradle" }.each {
+    def m = it.getVersion() =~ /(\d+)\.(\d+).(\d+)/
+    if ( !m ) {
+        logger.info("Doesn't match the format <major>.<minor>.<third>");
+        return ;
+    }
+
+    def major = m[0][1].isInteger() ?  (m[0][1] as int) : 0;
+    def minor = m[0][2].isInteger() ?  (m[0][2] as int) : 0;
+    def third = m[0][3].isInteger() ?  (m[0][3] as int) : 0;
+    def sum = (major * 100000000 + minor * 10000 + third);
+
+    if ( sum >= 100030001 ) {
+        logger.info("sum is $sum and copy public.xml")
+        afterEvaluate {
+            android.libraryVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def ft = fileTree(dir: android.sourceSets.main.res.srcDirs[0], includes: ['**/public.xml'])
+
+                    variant.mergeResources.doLast {
+                        println "cp -pvf ${ft[0]} ${buildDir}/intermediates/res/merged/${variant.getFlavorName()}/$variant.buildType.name/values/".execute().text
+                    }
+
+                    project.tasks["package${variant.name.capitalize()}Resources"].doLast {
+                        println "cp -pvf ${ft[0]} ${buildDir}/intermediates/bundles/${variant.getFlavorName()}/$variant.buildType.name/res/values/".execute().text
+                    }
+                }
+            }
+        }
+    } else {
+        logger.info("sum is $sum and don't copy public.xml")
+    }
+}
+
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-sr/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Ne pitaj me ponovo</string>
+    <string name="default_message">Ova aplikacija koristi mobilnu vezu za prenos podataka ili Wi-Fi. Proverite kod lokalnog operatera da biste saznali tačne cene za korišćenje podataka.</string>
+</resources>

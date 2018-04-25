@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/dark_primaryfont_disable_color" android:state_enabled="false" />
+    <item android:color="@color/dark_primaryfont_color" />
+</selector>
+<!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/color/dark_primaryfont.xml --><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/color/dark_primaryfont.xml -->

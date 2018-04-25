@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/htcprogress"/>
+    <item android:drawable="@drawable/htcprogress"/>
+    <item android:drawable="@drawable/htcthumb"/>
+</layer-list><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/drawable/htcpreference_seekbar_progress.xml -->

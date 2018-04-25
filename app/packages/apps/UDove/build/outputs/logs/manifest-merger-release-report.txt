@@ -1,0 +1,457 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:2:11
+	android:versionName
+		ADDED from AndroidManifest.xml:3:31
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:6
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:4:5
+uses-sdk
+ADDED from AndroidManifest.xml:6:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:23.0.1:20:5
+MERGED from com.android.support:support-v4:23.0.1:20:5
+MERGED from UDove.............hdk.htc.lib1:HtcCrypto:unspecified:7:5
+MERGED from com.google.android.gms:play-services-base:6.5.87:18:5
+MERGED from com.android.support:support-v4:23.0.1:20:5
+MERGED from UDove.............hdk.htc.lib1:HtcTheme:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib1:UserAgree:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:23.0.1:20:5
+MERGED from com.android.support:support-v4:23.0.1:20:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib1:HtcTheme:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib2:HtcConfiguration:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib2:HtcConfiguration:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib2:WeatherLib2:unspecified:7:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:9
+application
+ADDED from AndroidManifest.xml:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:16:5
+MERGED from com.android.support:appcompat-v7:23.0.1:22:5
+MERGED from com.android.support:support-v4:23.0.1:22:5
+MERGED from com.google.android.gms:play-services-base:6.5.87:20:5
+MERGED from com.android.support:support-v4:23.0.1:22:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:16:5
+MERGED from com.android.support:appcompat-v7:23.0.1:22:5
+MERGED from com.android.support:support-v4:23.0.1:22:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib2:HtcConfiguration:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib2:HtcConfiguration:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HDKUtil:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:Customization:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib2:WeatherLib2:unspecified:11:5
+MERGED from UDove.............hdk.htc.lib0:HtcDebugFlag:unspecified:11:5
+	configuredExt1
+		ADDED from AndroidManifest.xml:14:9
+	android:label
+		ADDED from AndroidManifest.xml:11:18
+	android:supportsRtl
+		ADDED from AndroidManifest.xml:13:9
+	android:allowBackup
+		ADDED from UDove.............hdk.htc.lib2:WeatherLib2:unspecified:11:18
+	android:description
+		ADDED from AndroidManifest.xml:12:9
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:16:9
+MERGED from com.google.android.gms:play-services-base:6.5.87:21:9
+	android:value
+		ADDED from AndroidManifest.xml:17:13
+	android:name
+		ADDED from AndroidManifest.xml:16:20
+activity#com.htc.feedback.ReportActivity
+ADDED from AndroidManifest.xml:19:9
+	android:label
+		ADDED from AndroidManifest.xml:20:19
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:21:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:22:19
+	android:exported
+		ADDED from AndroidManifest.xml:26:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:23:19
+	android:icon
+		ADDED from AndroidManifest.xml:25:10
+	android:theme
+		ADDED from AndroidManifest.xml:24:10
+	android:name
+		ADDED from AndroidManifest.xml:19:19
+intent-filter#android.intent.action.APP_ERROR+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:27:13
+action#android.intent.action.APP_ERROR
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:29:17
+	android:name
+		ADDED from AndroidManifest.xml:29:27
+activity#com.htc.feedback.ReportSettingsActivity
+ADDED from AndroidManifest.xml:33:9
+	android:label
+		ADDED from AndroidManifest.xml:34:19
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:35:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:37:19
+	android:permission
+		ADDED from AndroidManifest.xml:39:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:36:19
+	android:theme
+		ADDED from AndroidManifest.xml:38:19
+	android:name
+		ADDED from AndroidManifest.xml:33:19
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.MONKEY+com.htc.feedback.REPORT_SETTINGS
+ADDED from AndroidManifest.xml:40:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:41:25
+category#android.intent.category.MONKEY
+ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:42:27
+action#com.htc.feedback.REPORT_SETTINGS
+ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:43:25
+activity#com.htc.feedback.PreviewActivity
+ADDED from AndroidManifest.xml:48:9
+	android:label
+		ADDED from AndroidManifest.xml:49:19
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:50:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:53:19
+	android:icon
+		ADDED from AndroidManifest.xml:52:10
+	android:theme
+		ADDED from AndroidManifest.xml:51:10
+	android:name
+		ADDED from AndroidManifest.xml:48:19
+activity#com.htc.feedback.PreviewInfoActivity
+ADDED from AndroidManifest.xml:55:9
+	android:label
+		ADDED from AndroidManifest.xml:56:19
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:57:19
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:61:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:58:19
+	android:icon
+		ADDED from AndroidManifest.xml:60:10
+	android:theme
+		ADDED from AndroidManifest.xml:59:10
+	android:name
+		ADDED from AndroidManifest.xml:55:19
+activity#com.htc.feedback.PrivacyPageActivity
+ADDED from AndroidManifest.xml:63:9
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:64:19
+	android:exported
+		ADDED from AndroidManifest.xml:66:19
+	android:permission
+		ADDED from AndroidManifest.xml:67:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:65:19
+	android:theme
+		ADDED from AndroidManifest.xml:68:19
+	android:name
+		ADDED from AndroidManifest.xml:63:19
+activity-alias#com.htc.feedback.LearnMoreActivity
+ADDED from AndroidManifest.xml:70:9
+	android:exported
+		ADDED from AndroidManifest.xml:72:19
+	android:targetActivity
+		ADDED from AndroidManifest.xml:71:19
+	android:name
+		ADDED from AndroidManifest.xml:70:25
+activity#com.htc.feedback.SystemCrashActivity
+ADDED from AndroidManifest.xml:74:9
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:76:19
+	android:launchMode
+		ADDED from AndroidManifest.xml:75:19
+	android:theme
+		ADDED from AndroidManifest.xml:77:19
+	android:name
+		ADDED from AndroidManifest.xml:74:19
+activity#com.htc.feedback.FeedbackBugReportActivity
+ADDED from AndroidManifest.xml:79:9
+	android:label
+		ADDED from AndroidManifest.xml:80:19
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:81:19
+	android:configChanges
+		ADDED from AndroidManifest.xml:83:19
+	android:theme
+		ADDED from AndroidManifest.xml:82:19
+	android:name
+		ADDED from AndroidManifest.xml:79:19
+service#com.htc.feedback.FeedbackService
+ADDED from AndroidManifest.xml:85:9
+	android:name
+		ADDED from AndroidManifest.xml:85:18
+service#com.htc.feedback.AdditionalInfoService
+ADDED from AndroidManifest.xml:87:9
+	android:name
+		ADDED from AndroidManifest.xml:87:18
+service#com.htc.feedback.ReceiverService
+ADDED from AndroidManifest.xml:89:9
+	android:name
+		ADDED from AndroidManifest.xml:89:18
+receiver#com.htc.feedback.FeedbackReceiver
+ADDED from AndroidManifest.xml:91:9
+	android:exported
+		ADDED from AndroidManifest.xml:92:16
+	android:name
+		ADDED from AndroidManifest.xml:91:19
+intent-filter#android.intent.action.APP_ERROR+com.htc.updater.NOTIFY_SYSTEM_CRASH
+ADDED from AndroidManifest.xml:93:13
+action#com.htc.updater.NOTIFY_SYSTEM_CRASH
+ADDED from AndroidManifest.xml:95:17
+	android:name
+		ADDED from AndroidManifest.xml:95:25
+receiver#com.htc.feedback.CustomizationReceiver
+ADDED from AndroidManifest.xml:99:9
+	android:permission
+		ADDED from AndroidManifest.xml:100:16
+	android:name
+		ADDED from AndroidManifest.xml:99:19
+intent-filter#com.htc.intent.action.CUSTOMIZATION_FORCE_CHANGE+com.htc.intent.action.CUSTOMIZATION_FORCE_CHANGE_USER
+ADDED from AndroidManifest.xml:101:13
+action#com.htc.intent.action.CUSTOMIZATION_FORCE_CHANGE
+ADDED from AndroidManifest.xml:102:17
+	android:name
+		ADDED from AndroidManifest.xml:102:25
+action#com.htc.intent.action.CUSTOMIZATION_FORCE_CHANGE_USER
+ADDED from AndroidManifest.xml:103:17
+	android:name
+		ADDED from AndroidManifest.xml:103:25
+provider#com.htc.feedback.searchprovider.SettingIndexablesProvider
+ADDED from AndroidManifest.xml:107:9
+	android:authorities
+		ADDED from AndroidManifest.xml:109:11
+	android:grantUriPermissions
+		ADDED from AndroidManifest.xml:110:11
+	android:exported
+		ADDED from AndroidManifest.xml:112:11
+	android:permission
+		ADDED from AndroidManifest.xml:111:11
+	android:name
+		ADDED from AndroidManifest.xml:108:11
+intent-filter#android.content.action.SEARCH_INDEXABLES_PROVIDER
+ADDED from AndroidManifest.xml:113:10
+action#android.content.action.SEARCH_INDEXABLES_PROVIDER
+ADDED from AndroidManifest.xml:114:11
+	android:name
+		ADDED from AndroidManifest.xml:114:19
+receiver#com.htc.feedback.reportagent.receiver.ReportAgentReceiver
+ADDED from AndroidManifest.xml:118:9
+	android:permission
+		ADDED from AndroidManifest.xml:119:12
+	android:name
+		ADDED from AndroidManifest.xml:118:19
+intent-filter#com.htc.intent.action.BUGREPORT
+ADDED from AndroidManifest.xml:120:13
+action#com.htc.intent.action.BUGREPORT
+ADDED from AndroidManifest.xml:121:17
+	android:name
+		ADDED from AndroidManifest.xml:121:25
+receiver#com.htc.feedback.reportagent.receiver.PowerConnectedReceiver
+ADDED from AndroidManifest.xml:125:10
+	android:permission
+		ADDED from AndroidManifest.xml:126:12
+	android:name
+		ADDED from AndroidManifest.xml:125:20
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from AndroidManifest.xml:127:13
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from AndroidManifest.xml:128:17
+	android:name
+		ADDED from AndroidManifest.xml:128:25
+receiver#com.htc.feedback.reportagent.receiver.PolicyReceiver
+ADDED from AndroidManifest.xml:132:9
+	android:permission
+		ADDED from AndroidManifest.xml:133:12
+	android:name
+		ADDED from AndroidManifest.xml:132:19
+intent-filter#android.intent.action.BOOT_COMPLETED+com.htc.intent.action.TELLHTC_SETTING_CHANGE
+ADDED from AndroidManifest.xml:134:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:135:17
+	android:name
+		ADDED from AndroidManifest.xml:135:25
+action#com.htc.intent.action.TELLHTC_SETTING_CHANGE
+ADDED from AndroidManifest.xml:136:17
+	android:name
+		ADDED from AndroidManifest.xml:136:25
+receiver#com.htc.feedback.reportagent.receiver.DevelopingReceiver
+ADDED from AndroidManifest.xml:140:9
+	android:exported
+		ADDED from AndroidManifest.xml:140:75
+	android:name
+		ADDED from AndroidManifest.xml:140:19
+intent-filter#com.htc.intent.action.ENABLE_NCPOMELO_REPORT+com.htc.intent.action.UDOVE_UPLOAD_UB
+ADDED from AndroidManifest.xml:141:13
+action#com.htc.intent.action.UDOVE_UPLOAD_UB
+ADDED from AndroidManifest.xml:142:5
+	android:name
+		ADDED from AndroidManifest.xml:142:13
+action#com.htc.intent.action.ENABLE_NCPOMELO_REPORT
+ADDED from AndroidManifest.xml:143:17
+	android:name
+		ADDED from AndroidManifest.xml:143:25
+receiver#com.htc.feedback.reportagent.receiver.SetupWizardReceiver
+ADDED from AndroidManifest.xml:147:9
+	android:permission
+		ADDED from AndroidManifest.xml:148:16
+	android:name
+		ADDED from AndroidManifest.xml:147:19
+intent-filter#com.htc.intent.action.SETUP_WIZARD_FINISHED
+ADDED from AndroidManifest.xml:149:13
+action#com.htc.intent.action.SETUP_WIZARD_FINISHED
+ADDED from AndroidManifest.xml:150:17
+	android:name
+		ADDED from AndroidManifest.xml:150:25
+service#com.htc.feedback.reportagent.ReportService
+ADDED from AndroidManifest.xml:154:9
+	android:exported
+		ADDED from AndroidManifest.xml:154:60
+	android:name
+		ADDED from AndroidManifest.xml:154:18
+intent-filter#com.htc.feedback.action.POLICY_ALARM+com.htc.reportagent.action.BOOT_COMPLETE
+ADDED from AndroidManifest.xml:155:13
+action#com.htc.reportagent.action.BOOT_COMPLETE
+ADDED from AndroidManifest.xml:156:17
+	android:name
+		ADDED from AndroidManifest.xml:156:25
+action#com.htc.feedback.action.POLICY_ALARM
+ADDED from AndroidManifest.xml:157:17
+	android:name
+		ADDED from AndroidManifest.xml:157:25
+uses-permission#android.permission.WRITE_SECURE_SETTINGS
+ADDED from AndroidManifest.xml:163:5
+	android:name
+		ADDED from AndroidManifest.xml:163:22
+uses-permission#com.htc.permission.APP_DEFAULT
+ADDED from AndroidManifest.xml:164:5
+	android:name
+		ADDED from AndroidManifest.xml:164:22
+uses-permission#com.htc.permission.APP_PLATFORM
+ADDED from AndroidManifest.xml:165:5
+	android:name
+		ADDED from AndroidManifest.xml:165:22
+uses-permission#android.permission.READ_SEARCH_INDEXABLES
+ADDED from AndroidManifest.xml:166:5
+	android:name
+		ADDED from AndroidManifest.xml:166:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:167:5
+	android:name
+		ADDED from AndroidManifest.xml:167:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:168:5
+	android:name
+		ADDED from AndroidManifest.xml:168:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:169:5
+	android:name
+		ADDED from AndroidManifest.xml:169:22
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from AndroidManifest.xml:170:5
+	android:name
+		ADDED from AndroidManifest.xml:170:22
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:171:5
+	android:name
+		ADDED from AndroidManifest.xml:171:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:172:5
+	android:name
+		ADDED from AndroidManifest.xml:172:22
+uses-permission#android.permission.GET_ACCOUNTS_PRIVILEGED
+ADDED from AndroidManifest.xml:173:5
+	android:name
+		ADDED from AndroidManifest.xml:173:22
+uses-permission#com.htc.sense.permission.APP_HSP
+ADDED from AndroidManifest.xml:174:2
+	android:name
+		ADDED from AndroidManifest.xml:174:19
+activity#com.htc.lib1.cc.app.HtcShareActivity
+ADDED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:17:9
+MERGED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:17:9
+	android:theme
+		ADDED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:19:13
+	android:name
+		ADDED from UDove.............hdk.htc.lib1.HtcCommonControl:htccommoncontrol:unspecified:18:13
+meta-data#hdkapi_weather
+ADDED from UDove.............hdk.htc.lib2:WeatherLib2:unspecified:12:9
+	android:value
+		ADDED from UDove.............hdk.htc.lib2:WeatherLib2:unspecified:14:13
+	android:name
+		ADDED from UDove.............hdk.htc.lib2:WeatherLib2:unspecified:13:13

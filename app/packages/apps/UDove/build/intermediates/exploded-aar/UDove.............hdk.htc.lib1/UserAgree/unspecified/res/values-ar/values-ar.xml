@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">لا تسألني مرة أخرى</string>
+    <string name="default_message">هذا التطبيق يستخدم البيانات المتنقلة أو Wi-Fi. تحقق مع الناقل المحلي الخاص بك لمعرفة المعدلات المضبوطة لاستخدام البيانات.</string>
+</resources>

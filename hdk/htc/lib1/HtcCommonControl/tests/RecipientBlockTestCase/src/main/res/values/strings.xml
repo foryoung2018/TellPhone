@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecipientBlockAUT</string>
+    <string name="menu_message">Message style</string>
+    <string name="menu_task">Task style</string>
+    <string name="menu_remove_all">Remove all Buttons</string>
+</resources>

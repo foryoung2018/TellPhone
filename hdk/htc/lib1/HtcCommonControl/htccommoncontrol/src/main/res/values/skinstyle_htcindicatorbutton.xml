@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HtcIndicatorButton">
+        <item name="android:drawableBottom">@drawable/common_b_expand</item>
+        <item name="android:drawable">@drawable/common_b_collapse</item>
+
+    </style>
+    <style name="HtcIndicatorButton.Light">
+        <item name="android:drawableBottom">@drawable/common_expand</item>
+        <item name="android:drawable">@drawable/common_collapse</item>
+    </style>
+
+</resources>

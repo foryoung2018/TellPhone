@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="popup_view_start" type="id"/>
+    <item name="popup_view_end" type="id"/>
+
+</resources>

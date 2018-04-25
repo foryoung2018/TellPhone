@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-fi/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Älä kysy uudelleen</string>
+    <string name="default_message">Tämä sovellus käyttää mobiilidata- tai Wi-Fi-yhteyttä. Tarkista paikalliselta palveluntarjoajalta täsmälliset datankäytön hinnat.</string>
+</resources>

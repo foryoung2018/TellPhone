@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.button.aut"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/HtcDeviceDefault" >
+        <activity
+            android:name="com.htc.button.aut.HtcButtonDemo"
+            android:configChanges="orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.button.aut.HtcButtons"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.htc.button.aut.HtcIconButtonDemo"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.htc.button.aut.HtcRimButtonDemo"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.htc.aut.ActivityBase"
+            android:configChanges="orientation|screenSize" />
+    </application>
+
+</manifest>

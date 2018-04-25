@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32cc4492-938f-48b8-a3c8-61bf398bd477" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/stat_notify_emergency_mode.png" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/stat_notify_emergency_mode.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android.mk" afterPath="$PROJECT_DIR$/Android.mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle.createGradleWrapper" afterPath="$PROJECT_DIR$/build.gradle.createGradleWrapper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.gradle" afterPath="$PROJECT_DIR$/common.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extraLibraries.gradle" afterPath="$PROJECT_DIR$/extraLibraries.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proguard-project.txt" afterPath="$PROJECT_DIR$/proguard-project.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/specific_feedback_preview.xml" afterPath="$PROJECT_DIR$/res/layout/specific_feedback_preview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/specific_feedback_report.xml" afterPath="$PROJECT_DIR$/res/layout/specific_feedback_report.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/specific_feedback_tos.xml" afterPath="$PROJECT_DIR$/res/layout/specific_feedback_tos.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/specific_feedback_toslink.xml" afterPath="$PROJECT_DIR$/res/layout/specific_feedback_toslink.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/arrays.xml" afterPath="$PROJECT_DIR$/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/attrs.xml" afterPath="$PROJECT_DIR$/res/values/attrs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/style.xml" afterPath="$PROJECT_DIR$/res/values/style.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/feedback_preview.xml" afterPath="$PROJECT_DIR$/res/xml/feedback_preview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/feedback_settings.xml" afterPath="$PROJECT_DIR$/res/xml/feedback_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/AWSAuthConnection.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/AWSAuthConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/Bucket.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/Bucket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/CallingFormat.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/CallingFormat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/CommonPrefixEntry.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/CommonPrefixEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/ListEntry.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/ListEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/Owner.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/Owner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/QueryStringAuthGenerator.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/QueryStringAuthGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/Response.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/Response.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/S3Object.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/S3Object.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/s3/Utils.java" afterPath="$PROJECT_DIR$/src/com/amazon/s3/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amazon/thirdparty/Base64.java" afterPath="$PROJECT_DIR$/src/com/amazon/thirdparty/Base64.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/AdditionalInfo.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/AdditionalInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/CustomizationReceiver.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/CustomizationReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/ErrorReportPreference.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/ErrorReportPreference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackBugReportActivity.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackBugReportActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackInfoPreference.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackInfoPreference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackReceiver.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackService.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/FeedbackService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/Log.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/Log.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/PreviewActivity.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/PreviewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/PreviewInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/PreviewInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/PrivacyPageActivity.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/PrivacyPageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/ReceiverService.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/ReceiverService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/ReportActivity.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/ReportActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/ReportConfig.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/ReportConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/ReportSettingsActivity.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/ReportSettingsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/SettingsPreferenceFragment.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/SettingsPreferenceFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/SystemCrashActivity.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/SystemCrashActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/Utils.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/framework/ErrorReport.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/framework/ErrorReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/policy/DatabaseHelper.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/policy/DatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyStore.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyTable.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyUtils.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/policy/ReportPolicy.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/policy/ReportPolicy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/policy/UPolicy.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/policy/UPolicy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/Common.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/Common.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/ReportService.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/ReportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/EntryFile.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/EntryFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/LogCacheManager.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/LogCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/LogCacheUtil.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/LogCacheUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/S3EntryFile.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/S3EntryFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/S3LogCacheManager.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/cache/S3LogCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/Buffer.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/Buffer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/LogEntry.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/LogEntry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/PositionRetrievingInputStream.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/PositionRetrievingInputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/ReleasableByteArrayOutputStream.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/io/ReleasableByteArrayOutputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pbdata/DeviceInfoHelper.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pbdata/DeviceInfoHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pbdata/HandsetLogCreator.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pbdata/HandsetLogCreator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/policy/PolicyScheduler.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/policy/PolicyScheduler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pomelo/CSUploader.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pomelo/CSUploader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pomelo/ReportManager.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pomelo/ReportManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pomelo/UploadHelper.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/pomelo/UploadHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/DevelopingReceiver.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/DevelopingReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/PowerConnectedReceiver.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/PowerConnectedReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/ReportAgentReceiver.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/ReportAgentReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/SetupWizardReceiver.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/receiver/SetupWizardReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/BugReportReceiver.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/BugReportReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/BugReportService.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/BugReportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/FakeContext.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/FakeContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/S3DeviceInfoCreator.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/S3DeviceInfoCreator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/S3Policy.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/S3Policy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/S3Uploader.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/s3/S3Uploader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/DeviceInfoPreference.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/DeviceInfoPreference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/EngineeringPreference.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/EngineeringPreference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/LogStream.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/LogStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/PackageInfoUtil.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/PackageInfoUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/ReflectionUtil.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/ReflectionUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/ReportConfig.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/ReportConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/SafeZipInputStream.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/SafeZipInputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/Security.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/Security.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/SignatureUtil.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/SignatureUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/ThreadUtil.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/ThreadUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/UReportException.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/UReportException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/Utils.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/reportagent/util/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/htc/feedback/searchprovider/SettingIndexablesProvider.java" afterPath="$PROJECT_DIR$/src/com/htc/feedback/searchprovider/SettingIndexablesProvider.java" />
+    </list>
+    <ignored path="UDove.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="UDove" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReportActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/ReportActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedbackReceiver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedbackService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="56" column="20" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PolicyUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportPolicy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/ReportPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorReportPreference.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/ErrorReportPreference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedbackBugReportActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackBugReportActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedbackInfoPreference.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackInfoPreference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomizationReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/CustomizationReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/app/packages/apps/Message" value="102614077590062" />
+        <entry key="$PROJECT_DIR$/../../../../../Message/app/packages/apps/Message" value="102816858464524" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32cc4492-938f-48b8-a3c8-61bf398bd477" name="Default" comment="" />
+      <created>1521519488979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521519488979</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/ReportActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/ReportPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/ReportActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/reportagent/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3510">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/PolicyTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/policy/ReportPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/ErrorReportPreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackBugReportActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackInfoPreference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/CustomizationReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/htc/feedback/FeedbackReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

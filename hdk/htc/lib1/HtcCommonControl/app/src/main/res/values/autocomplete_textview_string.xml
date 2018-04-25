@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autocomplete_textview_demo_hint_false">enableDropDownMinWidth(false)</string>
+    <string name="autocomplete_textview_demo_hint_true">enableDropDownMinWidth(true)</string>
+</resources>

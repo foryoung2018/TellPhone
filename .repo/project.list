@@ -1,0 +1,10 @@
+app/packages/apps/UDove
+hdk/htc/lib0/Customization
+hdk/htc/lib0/HDKUtil
+hdk/htc/lib0/HtcDebugFlag
+hdk/htc/lib1/HtcCommonControl
+hdk/htc/lib1/HtcCrypto
+hdk/htc/lib1/HtcTheme
+hdk/htc/lib1/UserAgree
+hdk/htc/lib2/HtcConfiguration
+hdk/htc/lib2/WeatherLib2

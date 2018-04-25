@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/common_list_divider"
+    android:insetRight="@dimen/margin_l"
+    android:insetLeft="@dimen/margin_l" /><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/drawable/inset_list_divider.xml --><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/drawable/inset_list_divider.xml -->

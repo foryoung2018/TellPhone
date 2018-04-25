@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-bg/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Не ме питай повече</string>
+    <string name="default_message">Това приложение използва връзка за мобилни данни или Wi-Fi. Свържете се с местния оператор, за да разберете точните тарифи на използването на данни.</string>
+</resources>

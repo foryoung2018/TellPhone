@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Portrait ab_height = primarytextbox*14%+(primarytextbox+secondarytextbox-primarytextbox*10%)+primarytextbox*24% = primarytextbox+secondarytextbox+primarytextbox*28% -->
+    <dimen name="ab_height">82px</dimen>
+    <dimen name="ab_margin_top">5px</dimen>
+    <dimen name="ab_margin_bottom">9px</dimen>
+    <dimen name="ab_pulldown_margin_top">11px</dimen>
+    <dimen name="ab_pulldown_margin_bottom">10px</dimen>
+    <dimen name="ab_photoframe_size">50px</dimen>
+    <dimen name="ab_margin_for_footer">96px</dimen>
+    <dimen name="action_button_min_width">70px</dimen>
+    <!-- control overall environment -->
+    <integer name="actionBar_activeItemPMax">3</integer>
+    <integer name="actionBar_activeItemLMax">3</integer>
+</resources>

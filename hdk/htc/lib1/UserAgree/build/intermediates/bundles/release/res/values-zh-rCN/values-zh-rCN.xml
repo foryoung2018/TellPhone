@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">请勿再询问</string>
+    <string name="default_message">此应用程序会使用移动数据或 WLAN。具体流量费用请咨询当地运营商。</string>
+</resources>

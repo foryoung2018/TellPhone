@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/common_timer_tumblers"/>
+</layer-list><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/drawable/htcdatetimepicker_background.xml --><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/drawable/htcdatetimepicker_background.xml -->

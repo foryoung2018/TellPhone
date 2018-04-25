@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="footerbar_landscape_text1">اختيار لون الخلفية</string>
+    <string name="footerbar_landscape_text2">دمو خفيف (الوضع الافتراضي)</string>
+    <string name="footerbar_landscape_text3">عرض الظلام واسطة</string>
+    <string name="footerbar_landscape_text4">عرض طريقة شفافة</string>
+    <string name="footerbar_landscape_text5">الخلفية لون غامق</string>
+    <string name="footerbar_landscape_text6">متوسطة لون الخلفية</string>
+    <string name="footerbar_landscape_text7">لون الخلفية</string>
+    <string name="footertextbuttonlightstyle">تذييل النص زر ستايل فاتح</string>
+    <string name="footericonbuttonlightstyle">الفوتر رمز زر ستايل فاتح</string>
+    <string name="htcfooterbuttonlightstyle">اتش تي سي الذيل ضوء زر نمط</string>
+    <string name="enable_button">تمكين الزر</string>
+    <string name="disable_button">تعطيل زر</string>
+    <string name="btn">آبتين</string>
+    <string-array name="footerbar_overlay_list">
+        <item>العمل</item>
+        <item>مغامرة</item>
+        <item>رسوم متحركة</item>
+        <item>الأطفال</item>
+        <item>كوميديا</item>
+        <item>وثائقي</item>
+        <item>دراما</item>
+        <item>أجنبي</item>
+        <item>التاريخ</item>
+        <item>مستقل</item>
+        <item>الرومانسية</item>
+        <item>الخيال العلمي</item>
+        <item>التلفزيون</item>
+        <item>إثارة</item>
+    </string-array>
+    <string name="footerbar_portrait_buttontext">زر تذييل النص واسطة</string>
+    <string name="footerbar_portrait_sample">تمكين أند ديس الب عينه</string>
+    <string name="footerbar_portrait_icon">اتش تي سي تذييل مجموعة زر تعطي الروبوت: قَابِل لِلسَحبِ أعلى إلى مجموعة أيقونة</string>
+    <string name="longstring">ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج ج </string>
+    <string name="d_d_d_d">د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د د</string>
+    <string name="enable">تمكين</string>
+    <string name="disable">تعطيل</string>
+    <string name="htcfooterbuttondarkstyle">اتش تي سي زر تذييل ستايل غامق</string>
+    <string name="footerbar_special_weight">يمكن تطبيق هامش الوزن</string>
+    <string name="weight">1 الوزن </string>
+    <string name="wieght_2">2 الوزن </string>
+    <string name="footerbar">فوتر بار هو نوع من عرض مجموعة \ نوي يمكن وضع أي نوع من عرض في شريط الفوتر</string>
+    <string name="btn1">1آبتين</string>
+    <string name="btn2">2آبتين</string>
+    <string name="popupwindow">نافذة منبثقة</string>
+    <string name="popupexpandwindow">قافزة توسيع النافذة</string>
+    <string name="htcshareviapopup">اتش تي سي عن طريق حصة المنبثقة</string>
+</resources>

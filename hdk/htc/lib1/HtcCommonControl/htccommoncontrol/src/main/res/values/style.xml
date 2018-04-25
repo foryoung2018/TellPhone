@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    /*
+    * Copyright (C) 2008 Google Inc.
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    */
+-->
+<resources>
+    <style name="AlertDialog">
+        <!-- skinable attribute -->
+        <item name="android:fullDark">@drawable/common_dialogbox_full_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:topDark">@drawable/common_dialogbox_top_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:centerDark">@drawable/common_dialogbox_center_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomDark">@drawable/common_dialogbox_bottom_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:fullBright">@drawable/common_dialogbox_full_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:topBright">@drawable/common_dialogbox_top_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:centerBright">@drawable/common_dialogbox_center_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomBright">@drawable/common_dialogbox_bottom_bright</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomMedium">@drawable/common_dialogbox_bottom_medium</item>
+        <!-- skinable attribute -->
+        <item name="android:layout_toStartOf">@layout/alert_dialog</item>
+        <!-- skinable attribute -->
+        <item name="android:listChoiceIndicatorMultiple">@layout/dialog_listitem_check</item>
+        <!-- skinable attribute -->
+        <item name="android:listChoiceIndicatorSingle">@layout/dialog_listitem_radio</item>
+        <!-- skinable attribute -->
+        <item name="android:textAppearanceListItem">@layout/dialog_listitem</item>
+        <!-- skinable attribute -->
+        <item name="android:absListViewStyle">@layout/select_dialog</item>
+        <!-- skinable attribute -->
+        <item name="android:checkboxStyle">@layout/dialog_checkpanel</item>
+        <!-- work for isAutomotive -->
+        <item name="android:isDefault">false</item>
+        <!-- skinable attribute -->
+        <item name="android:dialogLayout">@layout/alert_dialog_progress</item>
+        <!-- skinable attribute -->
+        <item name="android:layout">@layout/progress_dialog</item>
+    </style>
+    <style name="DropDownList">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out</item>
+    </style>
+    <style name="ReorderListViewDragWindow">
+        <item name="@android:windowEnterAnimation">@anim/fade_in</item>
+    </style>
+    <style name="HtcWidget">
+        <item name="android:textAppearance">@android:style/TextAppearance</item>
+    </style>
+    <style name="HtcWidget.PopupBubbleWindow">
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+        <item name="android:windowEnterAnimation">@anim/popup_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_fade_out</item>
+        <item name="android:background">@drawable/tips_panel_shadow</item>
+        <item name="android:panelBackground">@drawable/tips_arrow_shadow</item>
+        <item name="android:panelFullBackground">@drawable/icon_btn_cancel_dark_s</item>
+        <item name="android:panelTextAppearance">@style/fixed_darklist_primary_m</item>
+    </style>
+    <style name="HtcWidget.ListPopupBubbleWindow">
+        <item name="android:dropDownSelector">@android:drawable/list_selector_background</item>
+        <item name="popupBubbleBackground">@drawable/common_popupmenu</item>
+        <item name="popupBubbleTriangle">@drawable/common_popupmenu_arrow</item>
+        <item name="popupBubbleLeftTriangle">@drawable/common_popupmenu_arrow_land</item>
+        <item name="popupBubbleAnimationStyle">@style/HtcAnimation.PopupBubbleWindow</item>
+        <item name="android:drawable">@drawable/common_popupmenu_triangle</item>
+        <item name="android:drawableLeft">@drawable/common_popupmenu_left_triangle</item>
+        <item name="android:dropDownVerticalOffset">-10dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="HtcWidget.AbsListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+    </style>
+    <style name="HtcWidget.ListView" parent="HtcWidget.AbsListView">
+        <item name="android:listSelector">?android:attr/selectableItemBackground</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">@drawable/inset_list_divider</item>
+        <item name="android:childDivider">@drawable/inset_list_divider</item>
+    </style>
+    <style name="HtcWidget.ExpandableListView.DropDown" parent="HtcListView.Dark">
+    </style>
+    <style name="HtcWidget.ListView.DropDown" parent="HtcListView.Dark">
+    </style>
+    <!-- Base style for animations. This style specifies no animations. -->
+    <style name="HtcAnimation" />
+    <!-- A special animation value used internally for popup windows. -->
+    <style name="HtcAnimation.PopupBubbleWindow" />
+    <style name="HtcWidget.SpinnerStyle" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner</item>
+    </style>
+    <style name="HtcSwitchPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+        <item name="android:switchTextOn">@string/switch_on</item>
+        <item name="android:switchTextOff">@string/switch_off</item>
+    </style>
+    <style name="HtcRecipientBlockStyle">
+        <item name="android:dialogLayout">@layout/compose_recipient_block</item>
+        <item name="android:textAppearance">@style/input_default_m</item>
+        <item name="android:moreIcon">@drawable/icon_btn_people_light</item>
+        <item name="android:background">@drawable/section_divider_top</item>
+        <item name="android:textViewStyle">@style/separator_primary_m</item>
+        <item name="android:buttonStyle">@style/list_secondary_m</item>
+    </style>
+    <style name="HtcRecipientBlockStyle.Dark">
+        <item name="android:textAppearance">@style/dark_input_default_m</item>
+        <item name="android:moreIcon">@drawable/icon_btn_people_light</item>
+        <item name="android:background">@drawable/section_b_divider_top</item>
+        <item name="android:textViewStyle">@style/b_separator_primary_m</item>
+        <item name="android:buttonStyle">@style/darklist_secondary_m</item>
+    </style>
+    <style name="AlertDialog.Dark">
+        <item name="android:topDark">@drawable/common_dialogbox_top_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:centerDark">@drawable/common_dialogbox_center_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomDark">@drawable/common_dialogbox_bottom_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:bottomMedium">@drawable/common_dialogbox_bottom_medium_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:layout_toStartOf">@layout/alert_dialog_dark</item>
+        <!-- skinable attribute -->
+        <item name="android:checkboxStyle">@layout/dialog_checkpanel_dark</item>
+        <!-- support for Automotive -->
+        <item name="android:isDefault">true</item>
+        <!-- skinable attribute -->
+        <item name="android:dialogLayout">@layout/alert_dialog_progress_dark</item>
+    </style>
+
+    <style name="ButtonRaisedStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/htc_btn_raise_ripple_light</item>
+        <item name="android:textAppearance">@dimen/button_primary_m</item>
+        <item name="android:padding">@dimen/margin_m</item>
+    </style>
+
+    <style name="ButtonRaisedStyle.Colored">
+        <item name="android:textAppearance">@dimen/b_button_primary_l</item>
+    </style>
+
+    <style name="ButtonFlatStyle" parent="@style/ButtonRaisedStyle">
+        <item name="android:background">@drawable/htc_btn_flat_ripple_light</item>
+    </style>
+
+    <style name="ButtonRaisedStyle.Dark">
+        <item name="android:background">@drawable/htc_btn_raise_ripple_dark</item>
+        <item name="android:textAppearance">@dimen/b_button_primary_m</item>
+    </style>
+
+    <style name="ButtonRaisedStyle.Dark.Colored">
+        <item name="android:textAppearance">@dimen/b_button_primary_l</item>
+    </style>
+
+    <style name="ButtonFlatStyle.Dark" parent="@style/ButtonRaisedStyle.Dark">
+        <item name="android:background">@drawable/htc_btn_flat_ripple_dark</item>
+    </style>
+</resources>

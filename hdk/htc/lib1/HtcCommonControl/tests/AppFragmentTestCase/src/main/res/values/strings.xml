@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Preference</string>
+    <string name="inline_preferences">In-line preferences</string>
+    <string name="dialog_based_preferences">Dialog-based preferences</string>
+    <string name="launch_preferences">Launch preferences</string>
+    <string name="screen_preference">screen preference</string>
+    <string name="preference_attributes">Preference attributes</string>
+    <string name="title_checkbox_preference">Checkbox preference</string>
+    <string name="summary_checkbox_preference">This is a checkbox</string>
+    <string name="title_switch_preference">Switch preference</string>
+    <string name="summary_switch_preference">This is a switch</string>
+    <string name="title_edittext_preference">Edit text preference</string>
+    <string name="summary_edittext_preference">An example that uses an edit text dialog</string>
+    <string name="dialog_title_edittext_preference">Enter your favorite animal</string>
+    <string name="title_list_preference">Single Choice List Preference</string>
+    <string name="summary_list_preference">An example that uses a list dialog</string>
+    <string name="dialog_title_list_preference">Choose one</string>
+    <string name="title_dialog_preference">DialogPreference</string>
+    <string name="dialog_preference_msg">This is a HtcDialogPreference</string>
+    <string name="summary_htcdialogpreference">An example that uses a htcdialogpreference</string>
+    <string name="title_screen_preference">Screen preference</string>
+    <string name="summary_screen_preference">Shows another screen of preferences</string>
+    <string name="title_next_screen_toggle_preference">Toggle preference</string>
+    <string name="summary_next_screen_toggle_preference">Preference that is on the next screen but same hierarchy</string>
+    <string name="title_intent_preference">Intent preference</string>
+    <string name="summary_intent_preference">Launches an Activity from an Intent</string>
+    <string name="title_parent_preference">Parent toggle</string>
+    <string name="summary_parent_preference">This is visually a parent</string>
+    <string name="title_seekbardialog_preference">SeekBar Dialog Preference</string>
+    <string name="summary_seekbardialog_preference">This is SeekBar Dialog Preference</string>
+    <string name="title_seekbar_preference">SeekBarPreference</string>
+    <string name="summary_seekbar_preference">This is SeekBar Preference</string>
+    <string name="title_multiselect_preference">MultiSelect ListPreference</string>
+    <string name="title_htcmultiselect_preference">HtcMultiSelect ListPreference</string>
+    <string name="title_htcswitch_preference">htcswitch_preference</string>
+    <string name="title_htcdialog_preference">HtcDialogPreference</string>
+    <string name="title_htcseekbar_preference">HtcSeekBar_DialogPreference</string>
+    <string name="title_htcswitchdialog_preference">HtcSwitch_DialogPreference</string>
+    <string name="preference_on">on</string>
+    <string name="preference_off">off</string>
+</resources>

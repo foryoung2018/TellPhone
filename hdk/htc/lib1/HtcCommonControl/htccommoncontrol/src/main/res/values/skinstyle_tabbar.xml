@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HtcTabBar">
+        <item name="android:itemTextAppearance">@style/fixed_b_separator_secondary_xs</item>
+        <item name="android:height">@dimen/tabbar_height</item>
+        <item name="android:rowHeight">@dimen/tab_indicator_height</item>
+
+        <item name="android:panelBackground">@drawable/list_selector_dark</item>
+        <item name="android:panelFullBackground">@drawable/list_selector_light</item>
+        <item name="android:panelColorForeground">@null</item>
+        <item name="android:panelColorBackground">@color/list_item_bg_bottom_color</item>
+        <item name="android:textColorPrimary">@color/dark_primaryfont_color</item>
+        <item name="android:textColorPrimaryInverse">@color/tabfont_color</item>
+    </style>
+
+    <style name="TabReorder">
+        <item name="android:itemTextAppearance">@style/darklist_primary_m</item>
+        <item name="android:background">@color/dark_ap_background_color</item>
+    </style>
+
+    <style name="TabReorder.Light">
+        <item name="android:itemTextAppearance">@style/list_primary_m</item>
+        <item name="android:background">@color/ap_background_color</item>
+    </style>
+
+    <style name="AnimationTabReorder">
+        <item name="android:windowEnterAnimation">@anim/tabreorder_enter</item>
+        <item name="android:windowExitAnimation">@anim/tabreorder_exit</item>
+    </style>
+</resources>

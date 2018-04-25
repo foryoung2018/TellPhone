@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fixed_dark_title_primary_m" parent="@style/fixed_title_primary_m">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_dark_list_body_primary_m" parent="@style/list_body_primary_m">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="fixed_dark_separator_secondary_m" parent="@style/fixed_separator_secondary_m">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="dark_input_default_m" parent="@style/input_default_m">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+        <item name="android:textColorHint">@color/dark_primaryfont_disable_color</item>
+    </style>
+    <style name="dark_list_body_primary_m" parent="@style/list_body_primary_m">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+    <style name="dark_list_body_primary_xs" parent="@style/list_body_primary_xs">
+        <item name="android:textColor">@color/dark_primaryfont</item>
+    </style>
+</resources>

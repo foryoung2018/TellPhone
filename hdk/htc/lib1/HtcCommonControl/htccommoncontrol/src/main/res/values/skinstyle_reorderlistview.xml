@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="HtcReorderListViewStyle">
+        <!-- skinable attribute -->
+        <item name="android:drawable">@drawable/common_rearrange_rest</item>
+        <item name="android:layout">@layout/htc_reorder_list_drag_item</item>
+        <item name="android:insetLeft">@dimen/margin_l</item>
+        <item name="android:childDivider">@drawable/common_list_divider</item>
+        <item name="android:panelBackground">@drawable/common_rearrange_frame</item>
+        <item name="android:itemBackground">@color/ap_background_color</item>
+    </style>
+
+    <style name="HtcReorderListViewStyle.Dark">
+        <item name="android:childDivider">@drawable/common_b_div_land</item>
+        <item name="android:itemBackground">@color/dark_ap_background_color</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/common_popupmenu_top"
+    android:insetLeft="@dimen/margin_m" >
+</inset><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/drawable-ldrtl/popupbg_inset.xml --><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/drawable-ldrtl/popupbg_inset.xml -->

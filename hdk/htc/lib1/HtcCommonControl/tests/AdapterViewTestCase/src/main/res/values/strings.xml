@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdapterViewAut</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="listview_title">HtcListView Demo</string>
+    <string name="reorderlistview_title">HtcReorderListView Demo</string>
+    <string name="listview_disable_bouncing">Disable Bouncing</string>
+    <string name="listview_enable_bouncing">Enable Bouncing</string>
+</resources>

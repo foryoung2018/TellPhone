@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:railingLayout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.htc.lib1.cc.widget.RailingLayout
+            android:id="@+id/dark_rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/railing_layout_text1"
+                android:textAppearance="@style/b_button_primary_l"
+                android:textColor="?android:colorForeground" />
+
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_light_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/railing_layout_text1"
+                android:textAppearance="@style/b_button_primary_l"
+                android:textColor="?android:colorForeground" />
+        </com.htc.lib1.cc.widget.RailingLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.htc.lib1.cc.widget.RailingLayout
+            android:id="@+id/dark_rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_light_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icon_btn_search_dark"
+                android:textColor="?android:colorForeground" />
+
+            <com.htc.lib1.cc.widget.HtcIconButton
+                android:id="@+id/icon_light_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/icon_btn_search_dark"
+                android:textColor="?android:colorForeground" />
+        </com.htc.lib1.cc.widget.RailingLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.htc.feedback"
+     android:versionCode="85" android:versionName="8.5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="24" />
+
+    <!-- [20160715][eric_lu] Add configuredExt1 for disable "DISABLE" button -->
+    <application android:label="@string/app_name"
+        android:description="@string/nn_htc_corporation"
+        android:supportsRtl="true"
+        configuredExt1="0x01">
+        
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        
+        <activity android:name="ReportActivity"
+                  android:label=""
+                  android:excludeFromRecents="true"
+                  android:launchMode="singleTask"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+			      android:theme="@style/AppBaseTheme"
+			      android:icon="@android:color/transparent"
+                  android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.APP_ERROR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ReportSettingsActivity"
+                  android:label="@string/app_name"
+                  android:excludeFromRecents="true"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:launchMode="singleTask"
+                  android:theme="@style/MySettingTheme"
+                  android:permission="com.htc.permission.APP_PLATFORM">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.MONKEY" />
+                <action android:name="com.htc.feedback.REPORT_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="PreviewActivity"
+                  android:label="@string/preview_title"
+                  android:excludeFromRecents="true"
+			      android:theme="@style/AppBaseTheme"
+			      android:icon="@android:color/transparent"
+                  android:configChanges="keyboardHidden|orientation|screenSize"/>
+        
+        <activity android:name="PreviewInfoActivity"
+                  android:label="@string/preview_title"
+                  android:excludeFromRecents="true"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+			      android:theme="@style/AppBaseTheme"
+			      android:icon="@android:color/transparent"
+                  android:hardwareAccelerated="false" />
+
+        <activity android:name="PrivacyPageActivity"
+                  android:excludeFromRecents="true"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:exported="true"
+                  android:permission="com.htc.permission.APP_PLATFORM"
+                  android:theme="@style/MyHtcAlertActivityTheme" />
+
+        <activity-alias android:name="LearnMoreActivity"
+                  android:targetActivity="PrivacyPageActivity"
+                  android:exported="false" />
+
+        <activity android:name="SystemCrashActivity"
+                  android:launchMode="singleInstance"
+                  android:excludeFromRecents="true"
+                  android:theme="@style/MyCrashDialog" />
+                  
+        <activity android:name="FeedbackBugReportActivity"
+                  android:label="@string/app_name"
+                  android:excludeFromRecents="true"
+                  android:theme="@style/MyTranslucentNoTitleBarTheme"
+                  android:configChanges="keyboardHidden|orientation|screenSize" />
+        
+        <service android:name="FeedbackService"/>
+        
+        <service android:name="AdditionalInfoService"/>
+        
+        <service android:name="ReceiverService"/>
+        
+        <receiver android:name="FeedbackReceiver"
+            	  android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.APP_ERROR" />
+                <action android:name="com.htc.updater.NOTIFY_SYSTEM_CRASH"/>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="CustomizationReceiver"
+            	  android:permission="htc.permission.CUSTOMIZATION_CHANGE">
+            <intent-filter>
+                <action android:name="com.htc.intent.action.CUSTOMIZATION_FORCE_CHANGE"/>
+                <action android:name="com.htc.intent.action.CUSTOMIZATION_FORCE_CHANGE_USER"/>
+            </intent-filter>
+        </receiver>
+        
+        <provider
+        		android:name=".searchprovider.SettingIndexablesProvider"
+        		android:authorities="com.htc.feedback.searchprovider"
+        		android:grantUriPermissions="true"
+        		android:permission="android.permission.READ_SEARCH_INDEXABLES"
+        		android:exported="true">
+        	<intent-filter>
+        		<action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+        	</intent-filter>
+        </provider>
+        
+        <receiver android:name=".reportagent.receiver.ReportAgentReceiver"
+        			android:permission="com.htc.permission.APP_PLATFORM">
+            <intent-filter>
+                <action android:name="com.htc.intent.action.BUGREPORT" />
+            </intent-filter>
+        </receiver>
+
+         <receiver android:name=".reportagent.receiver.PowerConnectedReceiver"
+        			android:permission="com.htc.permission.APP_PLATFORM">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+            </intent-filter>
+        </receiver>
+    
+        <receiver android:name=".reportagent.receiver.PolicyReceiver"
+        			android:permission="com.htc.permission.APP_PLATFORM">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.htc.intent.action.TELLHTC_SETTING_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".reportagent.receiver.DevelopingReceiver" android:exported="false">
+            <intent-filter>
+				<action android:name="com.htc.intent.action.UDOVE_UPLOAD_UB" />
+                <action android:name="com.htc.intent.action.ENABLE_NCPOMELO_REPORT"/>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name=".reportagent.receiver.SetupWizardReceiver"
+            	  android:permission="htc.permission.SETUP_WIZARD_FINISHED">
+            <intent-filter>
+                <action android:name="com.htc.intent.action.SETUP_WIZARD_FINISHED"/>
+            </intent-filter>
+        </receiver>
+        
+        <service android:name=".reportagent.ReportService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.htc.reportagent.action.BOOT_COMPLETE" />
+                <action android:name="com.htc.feedback.action.POLICY_ALARM" />
+            </intent-filter>
+        </service>
+    </application>
+    
+    <!-- [20150821][sy_wang] Add permission protection level base on M60 and use reason -->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" /> <!-- [signature|privileged|development] For accessing TellHTCs report configure from settings secure table. -->
+    <uses-permission android:name="com.htc.permission.APP_DEFAULT"/> <!-- [signature|privileged] For accessing customization setting table to update policy. -->
+    <uses-permission android:name="com.htc.permission.APP_PLATFORM"/> <!-- [signature|privileged] Need to send intent to Settings to rebuild search index after customization. -->
+    <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES"/> <!-- [signature|privileged] For accessing provider of the feature search in Settings. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> <!-- [normal] Need to know device boot complete to schedule policy updating. -->
+    <uses-permission android:name="android.permission.INTERNET"/> <!-- [normal] For accessing network to upload data. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/> <!-- [normal] For keeping device wake when uploading data. -->
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" /> <!-- [signature|privileged] Need to get device information for debugging. This is engineering ROM only. -->
+    <uses-permission android:name="android.permission.READ_LOGS" /> <!-- [signature|privileged|development] For reading logs from dropbox manager. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- [normal] Need to know current network type to check is it acceptable for user and is there enough data tonnage budget for it. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/> <!-- [signature|privileged] Need to get users account info for debugging. This is engineering ROM only. -->    
+	<uses-permission android:name="com.htc.sense.permission.APP_HSP"/> <!-- [signature] For accessing location info from weather module. This is engineering ROM only. -->
+</manifest>

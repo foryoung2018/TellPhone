@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gridview_demo_text">البند</string>
+    <string name="gridview_demo_secondary">ثانوي</string>
+    <string name="griditem_demo_primarytext">محتوى</string>
+    <string name="griditem_demo_secondarytext">كسكسكس</string>
+    <string name="griditem_demo_twoline_primarytext">هذه هي اثنين من خط النص الأساسي</string>
+</resources>

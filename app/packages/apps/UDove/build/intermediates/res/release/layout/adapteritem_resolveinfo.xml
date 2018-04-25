@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- adapter item used in HtcShareActivity -->
+<com.htc.lib1.cc.widget.HtcShareTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_shareGridItem"
+
+    android:paddingTop="@dimen/paddingTop_shareGridItem"
+    android:lines="2"
+    android:ellipsize="end"
+    android:gravity="center_horizontal|top"
+    android:drawablePadding="@dimen/drawablePadding_shareGridItem"
+    />
+<!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/layout/adapteritem_resolveinfo.xml --><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/layout/adapteritem_resolveinfo.xml -->

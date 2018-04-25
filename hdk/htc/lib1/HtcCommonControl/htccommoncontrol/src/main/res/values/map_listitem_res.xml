@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- default mode percent -->
+    <fraction name="listitem_top_margin_percent">35%</fraction>
+    <fraction name="listitem_midlle_margin_percent">12%</fraction>
+    <fraction name="listitem_bottom_margin_percent">56%</fraction>
+    <!-- popup mode percent -->
+    <fraction name="listitem_popupmenu_top_margin_percent">35%</fraction>
+    <fraction name="listitem_popupmenu_midlle_margin_percent">12%</fraction>
+    <fraction name="listitem_popupmenu_bottom_margin_percent">56%</fraction>
+    <!-- automotive mode percent -->
+    <fraction name="listitem_automotive_top_margin_percent">35%</fraction>
+    <fraction name="listitem_automotive_midlle_margin_percent">12%</fraction>
+    <fraction name="listitem_automotive_bottom_margin_percent">56%</fraction>
+</resources>

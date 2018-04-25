@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:htc="http://schemas.android.com/apk/res/com.htc">
+    <declare-styleable name="HtcButton">
+        <attr name="android:drawable" />
+        <attr name="android:textAppearance" />
+        <!-- selectorColor -->
+        <attr name="android:centerColor" />
+        <!-- api 21 selector -->
+        <attr name="android:listSelector" />
+        <attr name="android:background" />
+        <attr name="android:disabledAlpha" />
+        <attr name="android:padding" />
+    </declare-styleable>
+
+    <attr name="htcButtonStyle" format="reference" />
+
+    <declare-styleable name="HtcProgressButton">
+        <!-- RailAlpha  -->
+        <attr name="android:itemIconDisabledAlpha" />
+        <attr name="overlay_color" />
+        <!-- RailColor -->
+        <attr name="android:itemBackground" />
+    </declare-styleable>
+
+    <attr name="htcProgressButtonStyle" format="reference" />
+
+</resources>

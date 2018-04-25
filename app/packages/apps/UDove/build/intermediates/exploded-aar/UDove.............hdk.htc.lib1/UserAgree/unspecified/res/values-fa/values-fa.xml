@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-fa/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">دوباره از من سؤال نشود</string>
+    <string name="default_message">این برنامه از داده های همراه یا Wi-Fi استفاده می کند. برای اطلاع از نرخ های دقیق مصرف داده با شرکت مخابراتی محلیتان تماس بگیرید.</string>
+</resources>

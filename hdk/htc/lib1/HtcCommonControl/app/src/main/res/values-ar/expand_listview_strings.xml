@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expand_groups">
+        <item>أسماء الناس</item>
+        <item>الكلب أسماء</item>
+        <item>أسماء القط</item>
+        <item>أسماء الأسماك</item>
+        <item>آدا</item>
+        <item>باري</item>
+        <item>سنفرق</item>
+        <item>ديفيد</item>
+        <item>آدا</item>
+        <item>باري</item>
+        <item>سنفرق</item>
+        <item>ديفيد</item>
+        <item>آدا</item>
+        <item>باري</item>
+        <item>سنفرق</item>
+        <item>ديفيد</item>
+        <item>آدا</item>
+        <item>باري</item>
+        <item>سنفرق</item>
+        <item>ديفيد</item>
+        <item>آدا</item>
+        <item>باري</item>
+        <item>سنفرق</item>
+        <item>ديفيد</item>
+        <item>آدا</item>
+        <item>باري</item>
+        <item>سنفرق</item>
+    </string-array>
+
+    <string-array name="expand_children">
+        <item>"ابا"</item>
+        <item>"ابا", "قاطع طريق"</item>
+        <item>"ابا", "قاطع طريق", "تشا تشا"</item>
+        <item>"ابا", "قاطع طريق", "تشا تشا", "شيطان"</item>
+        <item>"جولدى", "فقاعات", "رقيق", "تكبب", "رقيق", "تكبب"</item>
+        <item>"جولدى", "فقاعات", "رقيق ", "تكبب", "رقيق", "تكبب","سنفرق"</item>
+        <item>"آدا", "باري", "سنفرق", "ديفيد", "آدا", "باري", "سنفرق", "ديفيد", "آدا","باري", "سنفرق", "ديفيد", "آدا", "باري", "سنفرق", "ديفيد", "آدا","باري", "سنفرق", "ديفيد", "آدا", "باري", "سنفرق", "ديفيد"</item>
+        <item>"جولدى", "فقاعات"</item>
+        <item>"جولدى", "فقاعات", "رقيق", "تكبب", "رقيق", "تكبب", "جولدى", "فقاعات","رقيق", "تكبب", "رقيق", "تكبب"</item>
+        <item>"جولدى", "فقاعات", "رقيق", "تكبب", "رقيق", "تكبب"</item>
+        <item>"جولدى", "فقاعات", "رقيق", "تكبب", "رقيق", "تكبب"</item>
+        <item>"جولدى", "فقاعات", "رقيق", "تكبب", "رقيق", "تكبب"</item>
+        <item>"جولدى", "فقاعات", "رقيق", "تكبب", "رقيق", "تكبب"</item>
+        <item>"جولدى", "فقاعات", "رقيق", "تكبب", "رقيق", "تكبب"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+        <item>"رقيق"</item>
+    </string-array>
+
+</resources>

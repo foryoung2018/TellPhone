@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:htc="http://schemas.android.com/apk/res/com.htc">
+    <declare-styleable name="HtcAutoCompleteTextView">
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+        <attr name="android:popupBackground" />
+        <attr name="android:dropDownWidth" />
+        <attr name="android:dropDownHorizontalOffset" />
+        <attr name="android:dropDownVerticalOffset" />
+        <attr name="android:entries" />
+        <attr name="backgroundMode" />
+        <attr name="android:textColorPrimary" />
+        <attr name="android:panelBackground" />
+        <attr name="android:panelFullBackground" />
+        <attr name="android:disabledAlpha" />
+        <attr name="android:textAppearanceLarge" />
+    </declare-styleable>
+    <declare-styleable name="HtcEditText">
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingBottom" />
+        <attr name="android:entries" />
+        <attr name="android:background" />
+        <attr name="backgroundMode" />
+        <attr name="android:textColorPrimary" />
+        <attr name="android:panelBackground" />
+        <attr name="android:panelFullBackground" />
+        <attr name="android:disabledAlpha" />
+        <attr name="android:textAppearanceLarge" />
+    </declare-styleable>
+</resources>

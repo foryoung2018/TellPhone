@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- The setting to control the preference network for user to send feedback data -->
+    <string-array name="network_preference_entries">
+        <item>Over a Wi-Fi or mobile data connection</item>
+        <item>Over a Wi-Fi connection only</item>
+    </string-array>
+    
+	<!-- The setting to control the auto-send preference when error occurs -->
+    <string-array name="auto_send_preference_entries">
+        <item>Automatically send error report</item>
+        <item>Ask me each time before sending</item>
+    </string-array>    
+    
+     <!-- Do not translate. -->
+    <string-array name="network_preference_values">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+    </string-array>
+    
+     <!-- Do not translate. -->
+    <string-array name="auto_send_preference_values">
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>0</item>
+    </string-array>
+</resources>

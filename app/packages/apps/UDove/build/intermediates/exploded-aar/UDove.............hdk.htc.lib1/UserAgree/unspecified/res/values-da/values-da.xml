@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-da/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Spørg mig ikke igen</string>
+    <string name="default_message">Denne app bruger mobildata eller Wi-Fi. Tjek med din lokale udbyder for gebyrer for dataanvendelse.</string>
+</resources>

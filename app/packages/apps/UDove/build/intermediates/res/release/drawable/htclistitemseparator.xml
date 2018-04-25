@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/common_list_divider"/>
+    <item android:drawable="@drawable/common_b_div"/>
+    <item android:drawable="@drawable/section_divider_top"/>
+    <item android:drawable="@drawable/section_b_divider_top"/>
+    <item android:drawable="@drawable/section_b_divider"/>
+</layer-list><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/drawable/htclistitemseparator.xml --><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/drawable/htclistitemseparator.xml -->

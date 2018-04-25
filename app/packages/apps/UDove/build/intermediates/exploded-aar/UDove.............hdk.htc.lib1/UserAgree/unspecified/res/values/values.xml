@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Don\'t ask me again</string>
+    <string name="default_message">This app uses mobile data or Wi-Fi. Check with your local carrier to find out exact rates for data usage.</string>
+</resources>

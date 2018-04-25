@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expand_groups">
+        <item>1 People Names</item>
+        <item>2 Dog Names</item>
+        <item>3 Cat Names</item>
+        <item>4 Fish Names</item>
+        <item>5 Ada</item>
+        <item>6 Barry</item>
+        <item>7 Chuck</item>
+        <item>8 David</item>
+        <item>9 Ada</item>
+        <item>10 Barry</item>
+        <item>11 Chuck</item>
+        <item>12 David</item>
+        <item>13 Ada</item>
+        <item>14 Barry</item>
+        <item>15 Chuck</item>
+        <item>16 David</item>
+        <item>17 Ada</item>
+        <item>18 Barry</item>
+        <item>19 Chuck</item>
+        <item>20 David</item>
+        <item>21 Ada</item>
+        <item>22 Barry</item>
+        <item>23 Chuck</item>
+        <item>24 David</item>
+        <item>25 Ada</item>
+        <item>26 Barry</item>
+        <item>27 Chuck</item>
+    </string-array>
+
+    <string-array name="expand_children">
+        <item>"Aba"</item>
+        <item>"Aba", "Bandit"</item>
+        <item>"Aba", "Bandit", "Cha-Cha"</item>
+        <item>"Aba", "Bandit", "Cha-Cha", "Deuce"</item>
+        <item>"Goldy", "Bubbles", "Fluffy", "Snuggles", "Fluffy", "Snuggles"</item>
+        <item>"Goldy", "Bubbles", "Fluffy ", "Snuggles", "Fluffy", "Snuggles","Chuck"</item>
+        <item>"Ada", "Barry", "Chuck", "David", "Ada", "Barry", "Chuck", "David", "Ada","Barry", "Chuck", "David", "Ada", "Barry", "Chuck", "David", "Ada","Barry", "Chuck", "David", "Ada", "Barry", "Chuck", "David"</item>
+        <item>"Goldy", "Bubbles"</item>
+        <item>"Goldy", "Bubbles", "Fluffy", "Snuggles", "Fluffy", "Snuggles", "Goldy", "Bubbles","Fluffy", "Snuggles", "Fluffy", "Snuggles"</item>
+        <item>"Goldy", "Bubbles", "Fluffy", "Snuggles", "Fluffy", "Snuggles"</item>
+        <item>"Goldy", "Bubbles", "Fluffy", "Snuggles", "Fluffy", "Snuggles"</item>
+        <item>"Goldy", "Bubbles", "Fluffy", "Snuggles", "Fluffy", "Snuggles"</item>
+        <item>"Goldy", "Bubbles", "Fluffy", "Snuggles", "Fluffy", "Snuggles"</item>
+        <item>"Goldy", "Bubbles", "Fluffy", "Snuggles", "Fluffy", "Snuggles"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+        <item>"Fluffy"</item>
+    </string-array>
+
+</resources>

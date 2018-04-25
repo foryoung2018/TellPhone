@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">不需要再問我</string>
+    <string name="default_message">此應用程式使用行動數據或 Wi-Fi。請與當地電信業者確認數據使用的確切費率。</string>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/guest/newspace/Error report/hdk/htc/lib2/HtcConfiguration/res"/><source path="/home/guest/newspace/Error report/hdk/htc/lib2/HtcConfiguration/build/generated/res/rs/release"/><source path="/home/guest/newspace/Error report/hdk/htc/lib2/HtcConfiguration/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/home/guest/newspace/Error report/hdk/htc/lib2/HtcConfiguration/src/release/res"/></dataSet><mergedItems/></merger>

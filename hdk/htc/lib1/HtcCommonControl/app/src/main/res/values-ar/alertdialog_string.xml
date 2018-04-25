@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_text_dialogs">اختيار الحوار النص</string>
+    <string name="all_list_dialogs">اختيار الحوار قائمة</string>
+    <string name="all_progress_dialogs">اختيار حوار التقدم</string>
+    <string name="all_automotive_dialogs">اختيار الحوار السيارات</string>
+    <string name="all_activity_dialogs">اختيار الحوار النشاط</string>
+    <string name="all_ime_dialogs">اختيار عرض الحوار المدخلات</string>
+
+    <string name="delete_duplicate_contacts">(واحد اثنين واحد اثنين) حذف جهات الاتصال المكررة</string>
+    <string name="remove_account">(واحد اثنين ثلاثة ثلاثة) إزالة حساب</string>
+    <string name="htc_legal">(واحد ن صفر صفر) HTC القانوني</string>
+    <string name="center_align">(واحد اثنين ثلاثة صفر) مركز مركز المحاذاة الرأسية المحاذاة العمودية</string>
+    <string name="demo_checkbox">(ثلاثة صفر واحد X) تجريبي الاختيار مربع</string>
+
+    <string name="list_dialog_title">الحيوان المفضل</string>
+    <string name="single_choice_list_dialog_title">موقعك الحالي</string>
+    <string name="multiple_choice_list_dialog_title">الكتب المفضلة لديك</string>
+    <string name="long_list">قائمة طويلة جدا</string>
+    <string name="font_size">حجم الخط</string>
+
+    <string name="spinner_with_title">إذا كان هناك عنوان هنا</string>
+    <string name="progress_dialog_title">حوار التقدم</string>
+    <string name="horizontal_progress_without_message">حوار التقدم الأفقي دون رسالة</string>
+    <string name="horizontal_progress_with_long_message">حوار التقدم الأفقي مع رسالة طويلة</string>
+
+    <string name="title_htc_alert_activity_demo">اتش تي سي تنبيه آخر تجريبي</string>
+
+    <string name="title">تصنيع اختبار</string>
+
+    <string name="less_than_two">عدد جميع أنواع الاتصال أقل من عقدين من البنود</string>
+    <string name="ask_no_more_2">اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر.</string>
+    <string name="remove_account_warning">سوف إزالة هذا الحساب حذف جميع الرسائل، والاتصالات، وغيرها من البيانات الخاصة به من الهاتف!</string>
+    <string name="ask_no_more_3">اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر. اسأل لا أكثر.</string>
+    <string name="more_info">مزيد من المعلومات</string>
+    <string name="alert_dialog_long_message_content">الروبوت هو كومة برمجيات للأجهزة النقالة التي تتضمن نظام التشغيل والبرمجيات الوسيطة والتطبيقات الأساسية. الروبوت SDK توفر الأدوات واجهات برمجة التطبيقات اللازمة للبدء في تطوير التطبيقات على منصة أندرويد باستخدام لغة البرمجة جافا.
+    \n\n<b>الأول. تطبيقات</b>\nالروبوت سوف السفينة مع مجموعة من التطبيقات الأساسية بما في ذلك عميل البريد الإلكتروني، وبرنامج SMS، والتقويم، والخرائط، ومتصفح، والاتصالات، وغيرها. يتم كتابة كافة التطبيقات باستخدام لغة البرمجة جافا. في حين أن النقاش العقد طويلة في الاتحاد الأوروبي حول تعريف "المعايير المفتوحة" تم نشر جيدا، فإنه قد يشكل مفاجأة للبعض أن يطلب من الدول الأعضاء في الاتحاد الأوروبي للاستفادة من مرشح معايير الثاني في المشتريات العامة كذلك.ويتعلق هذا المرشح إلى ما إذا كان قد تم وضع المعايير من قبل منظمة "رسمية" القياسية إعداد (SSO). وبعبارة أخرى، من خلال إما SSO الاتحاد الأوروبي، مثل CEN / CENELEC أو ETSI، أو من قبل أحد العالمي "الكبير هو" (ISO، IEC أو ITU). إذا لم يحدث ذلك، ثم أنه من المفترض أن يكون خارج حدود - حتى الآن.هذا المرشح له جذور في ستين عاما السعي المستندة إلى المعايير للاستفادة التعاملات الأوروبية، سواء داخل الاتحاد الأوروبي وعلى الصعيد الدولي. تاريخيا، كان تحقيق هذا الهدف من خلال السعي إلى وضع معايير على نطاق الاتحاد الأوروبي التي من شأنها أن تكون هناك حاجة الدول الأعضاء إلى اعتماد، وبالتالي استبدال المعايير الوطنية كانت قد استخدمت لفترة طويلة للحفاظ على السلع من الدول المجاورة من أسواقها. وفي الوقت نفسه، سوف يتم تصميم هذه المعايير لتسهيل البضائع الاتحاد الأوروبي على الصعيد الدولي.بطبيعة الحال، في عصر الشركات متعددة الجنسيات والتجارة العالمية على نحو متزايد، فإن مفهوم "المعايير الأوروبية" أقل جدوى في تكنولوجيا المعلومات والاتصالات (ICT) القطاع ثم فإنه عادة. ومع صعود اتحادات، حتى المعايير التي وضعها الكبير هو (حيث كل دول الاتحاد الاوروبي صوت والخاص، تضم جدا كتلة التصويت كبير) تتناقص في الأهمية، لأن غالبية المعايير في تكنولوجيا المعلومات والاتصالات يتم إنشاؤها حاليا داخل الاتحادات و ليس عن طريق الخط القديم، التيار SSOs.على مدى العام الماضي، وممثلي الاتحاد الأوروبي قد تصارع مع هذا الواقع. الجواب، يظن المرء، أن تكون بسيطة: مجرد نعترف بحقيقة أن (على الأقل) بعد السوق اعتمدت عالميا على مستوى تكنولوجيا المعلومات والاتصالات التي وضعتها كونسورتيوم، هناك حقا أي بديل سوى اتباع حزمة، أو أنك لن تكون قادرة على التعامل مع بقية العالم.
+    \n\n</string>
+    <string name="one_line_message">رسالة من سطر واحد</string>
+    <string name="neutral">محايد</string>
+    <string name="va_help">مساعدة</string>
+    <string name="checkbox_description">فحص مربع فوق تذييل ميزة جديدة في تحسس خمسة +. هنا هو التجريبي.</string>
+    <string name="dont_ask">لا تسألني مرة أخرى!</string>
+    <string name="alert_dialog_ok">حسنا</string>
+    <string name="alert_dialog_cancel">إلغاء</string>
+    <string name="long_confirm_message">تم تعطيل هذا البند شيك لغرض الاختبار. لا تقلق، انها ليست علة. الى جانب ذلك، ينبغي أن تأخذ هذه الرسالة النصية أكثر من 2 خطوط من الفضاء. كن حذرا كيف هو العمودي الانحياز.</string>
+    <string name="titled_spinner_message">محتوى يشبه قائمة البند.</string>
+    <string name="export_contact">تصدير بيانات الاتصال ل\/بطاقة الذاكرة\/قمة شرق آسيا_yenlee_تشو_صفر صفر اثنين.vcf</string>
+    <string name="run_in_background">تستمر في الخلفية</string>
+    <string name="message_htc_alert_activity_demo">هذا هو نموذج آخر هتك تنبيه، والتي تبين فقط رسالة نصية.</string>
+    <string name="exit_htc_auto_complete_textview">خروج هتك السيارات النص الكامل مشاهدة</string>
+    <string name="exit_htc_auto_complete_textview_gone">خروج هتك السيارات النص الكامل عرض، ومن ذهب</string>
+
+    <string-array name="list_dialog_items1">
+        <item>نمر</item>
+        <item>أسد أسد أسد أسد</item>
+        <item>كلب كلب كلب كلب كلب كلب كلب كلب</item>
+        <item>خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير خنزير</item>
+        <item>القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط القط</item>
+    </string-array>
+    <string-array name="single_choice_dialog_items2">
+        <item>نيويورك</item>
+    </string-array>
+    <string-array name="multiple_choice_dialog_items3">
+        <item>أليس في بلاد العجائب مغامرات أليس في بلاد العجائب مغامرات أليس في بلاد العجائب مغامرات</item>
+        <item>جزيرة الكنز</item>
+        <item>عالم جديد شجاع</item>
+        <item>لوليتا</item>
+        <item>الحارس في حقل الشوفان الحارس في حقل الشوفان</item>
+        <item>مزرعة الحيوانات</item>
+    </string-array>
+    <string-array name="long_list_dialog_items">
+        <item>أندرو</item>
+        <item>فاتورة</item>
+        <item>كانديس</item>
+        <item>داني</item>
+        <item>صريح</item>
+        <item>ذهبي</item>
+        <item>هنري</item>
+        <item>ايفان</item>
+        <item>جاك</item>
+        <item>كيني</item>
+        <item>لوتس</item>
+        <item>قصر</item>
+        <item>شق</item>
+        <item>أوليفر</item>
+        <item>بيتر</item>
+        <item>ملكة</item>
+        <item>ريكي</item>
+        <item>ستانلي</item>
+        <item>توم</item>
+        <item>أوما</item>
+        <item>فيكي</item>
+        <item>والي</item>
+        <item>X</item>
+        <item>يودا</item>
+        <item>الاموات الاحياء</item>
+    </string-array>
+
+    <string-array name="text_dialog_items">
+        <item>شكر وتقدير (عنوان واحد، واثنين من النص، وهما الاختيار، زر واحد)</item>
+        <item>السؤال (عنوان واحد، ثلاثة نصوص، ثلاثة الاختيار، وهما زر)</item>
+        <item>القانونية (عنوان واحد، ن النص، والتحقق من الصفر، زر صفر)</item>
+        <item>مركز الانحياز، ارتفاع بند واحد (اثنين من العنوان، نص واحد، صفر الاختيار، ثلاثة زر)</item>
+        <item>فحص مربع الرسالة التالية (عنوان الصفر، ن النص، ن الاختيار، NA)</item>
+        <item>تحقق مربع فقط (ثلاثة اللقب، صفر النص، والتحقق من واحد، NA)</item>
+        <item>فحص مربع العديد من (ثلاث العنوان، النص الصفر، والتحقق من واحد، NA)</item>
+    </string-array>
+    <string-array name="list_dialog_items">
+        <item>الحوار قائمة (صفحة واحدة، زر صفر)</item>
+        <item>اختيار واحد (عنصر واحد، زر واحد)</item>
+        <item>الاختيار من متعدد (صفحة واحدة، اثنين من الأزرار)</item>
+        <item>قائمة طويلة (> صفحة واحدة، ثلاثة أزرار)</item>
+        <item>محدد الخط (صفحة واحدة، زر صفر)</item>
+        <item>فحص مربع التالية متعددة قائمة الاختيار (صفحة واحدة، زر واحد)</item>
+    </string-array>
+    <string-array name="progress_dialog_items">
+        <item>الحوار الدوار</item>
+        <item>الحوار الدوار مع عنوان</item>
+        <item>الحوار شريط التقدم</item>
+        <item>شريط حوار التقدم دون رسالة</item>
+        <item>شريط الحوار تقدم مع رسالة طويلة</item>
+    </string-array>
+    <string-array name="activity_dialog_items">
+        <item>رسالة النشاط في حالة تأهب</item>
+        <item>قائمة النشاط في حالة تأهب</item>
+    </string-array>
+    <string-array name="ime_dialog_items">
+        <item>إدخال نص الحوار عرض مرئي</item>
+        <item>إدخال نص الحوار مشاهدة ذهب</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gridview_demo_text">item</string>
+    <string name="gridview_demo_secondary">Secondary</string>
+    <string name="griditem_demo_primarytext">xxxxxxx</string>
+    <string name="griditem_demo_secondarytext">xxx</string>
+    <string name="griditem_demo_twoline_primarytext">this is two line primary text</string>
+
+</resources>

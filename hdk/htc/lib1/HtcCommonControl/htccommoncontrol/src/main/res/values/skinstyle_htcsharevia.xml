@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseHtcShareVia">
+        <item name="android:itemTextAppearance">@style/shortcut_label_m</item>
+        <item name="android:panelBackground">#252525</item>
+        <item name="android:headerBackground">@color/dark_ap_background_color</item>
+        <item name="android:listSelector">@drawable/grid_selector_dark</item>
+    </style>
+
+    <style name="BaseHtcShareVia.Light">
+        <item name="android:headerBackground">@null</item>
+        <item name="android:itemTextAppearance">@style/list_body_primary_xs</item>
+        <item name="android:panelBackground">@color/ap_background_color</item>
+        <item name="android:listSelector">@drawable/grid_selector_light</item>
+    </style>
+
+    <style name="HtcShareVia" parent="BaseHtcShareVia"></style>
+
+    <style name="HtcShareVia.Light" parent="BaseHtcShareVia.Light"></style>
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="HtcSwitch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:textOn">@string/switch_on</item>
+        <item name="android:textOff">@string/switch_off</item>
+        <item name="android:thumb">@drawable/common_switch_thumb</item>
+        <item name="android:track">@drawable/common_switch_thumb</item>
+        <item name="android:showText">false</item>
+        <item name="android:switchTextAppearance">@style/fixed_b_toggle_primary_m</item>
+        <item name="android:drawable">@drawable/common_switch_outer_dark</item>
+        <item name="android:icon">@drawable/common_switch_rest_dark</item>
+        <item name="android:disabledAlpha">0.4</item>
+    </style>
+
+    <style name="HtcSwitch.Light">
+        <item name="android:switchTextAppearance">@style/fixed_toggle_primary_m</item>
+        <item name="android:drawable">@drawable/common_switch_outer</item>
+        <item name="android:icon">@drawable/common_switch_rest</item>
+        <item name="android:disabledAlpha">0.5</item>
+    </style>
+
+</resources>

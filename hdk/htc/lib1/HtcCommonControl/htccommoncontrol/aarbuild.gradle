@@ -1,0 +1,85 @@
+buildscript {
+        repositories {
+                maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/jcenter" }
+                maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/HICRelease"}
+                jcenter()
+                    }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:1.3.1'
+            classpath "com.htc.commoncontrol:gradleplugin:0.8.5"
+        }
+
+    //commonLibrary.each{compile it}
+    //extraLibrary.each{compile it}
+}
+
+apply plugin: 'com.android.library'
+apply from: "${project.projectDir}/publish2maven.gradle"
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+        maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/jcenter" }
+        maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/HICRelease"}
+        jcenter()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.htc.lib2:HtcConfiguration:1.0.2'
+    compile 'com.htc.lib1:HtcTheme:1.0.742306'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+
+}
+
+
+getRootProject().buildscript.configurations.classpath.allDependencies.findAll { it.getGroup() == "com.android.tools.build" && it.getName() == "gradle" }.each {
+    def m = it.getVersion() =~ /(\d+)\.(\d+).(\d+)/
+    if ( !m ) {
+        logger.info("Doesn't match the format <major>.<minor>.<third>");
+        return ;
+    }
+
+    def major = m[0][1].isInteger() ?  (m[0][1] as int) : 0;
+    def minor = m[0][2].isInteger() ?  (m[0][2] as int) : 0;
+    def third = m[0][3].isInteger() ?  (m[0][3] as int) : 0;
+    def sum = (major * 100000000 + minor * 10000 + third);
+
+    if ( sum >= 100030001 ) {
+        logger.info("sum is $sum and copy public.xml")
+        afterEvaluate {
+            android.libraryVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def ft = fileTree(dir: android.sourceSets.main.res.srcDirs[0], includes: ['**/public.xml'])
+
+                    variant.mergeResources.doLast {
+                        println "cp -pvf ${ft[0]} ${buildDir}/intermediates/res/merged/${variant.getFlavorName()}/$variant.buildType.name/values/".execute().text
+                    }
+
+                    project.tasks["package${variant.name.capitalize()}Resources"].doLast {
+                        println "cp -pvf ${ft[0]} ${buildDir}/intermediates/bundles/${variant.getFlavorName()}/$variant.buildType.name/res/values/".execute().text
+                    }
+                }
+            }
+        }
+    } else {
+        logger.info("sum is $sum and don't copy public.xml")
+    }
+}
+

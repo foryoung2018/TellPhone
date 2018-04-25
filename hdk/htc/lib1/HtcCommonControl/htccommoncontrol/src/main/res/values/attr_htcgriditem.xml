@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HtcGridItem">
+        <attr name="itemMode" />
+        <attr name="android:indicatorRight" />
+        <attr name="android:drawableBottom" />
+        <attr name="android:centerDark" />
+        <attr name="android:insetLeft" />
+        <attr name="android:insetTop" />
+        <attr name="android:insetBottom" />
+        <attr name="android:textAppearanceSmall" />
+        <attr name="android:textAppearanceLarge" />
+        <attr name="android:textAppearance" />
+        <attr name="android:bottomDark" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HtcGridItemStyle">
+        <item name="android:indicatorRight">@dimen/spacing</item>
+        <item name="android:drawableBottom">@drawable/common_gridview_delete</item>
+        <item name="android:centerDark">@color/HtcGridItemBase_OverlayColor</item>
+        <item name="android:insetLeft">@dimen/margin_m</item>
+        <item name="android:insetTop">@dimen/spacing</item>
+        <item name="android:insetBottom">@dimen/margin_l</item>
+        <item name="android:textAppearanceSmall">@style/list_secondary_xs</item>
+        <item name="android:textAppearanceLarge">@style/list_primary_xxs</item>
+        <item name="android:textAppearance">@style/fixed_darklist_primary_xxs</item>
+        <item name="android:bottomDark">@color/HtcGridItemOverlayImage_OverlayColor </item>
+    </style>
+    <style name="HtcGridItemStyle.Dark">
+        <item name="android:textAppearanceSmall">@style/darklist_secondary_xs</item>
+        <item name="android:textAppearanceLarge">@style/darklist_primary_xxs</item>
+    </style>
+</resources>

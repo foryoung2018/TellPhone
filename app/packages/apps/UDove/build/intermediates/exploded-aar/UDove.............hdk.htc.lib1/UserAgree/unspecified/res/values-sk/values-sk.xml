@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-sk/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Nabudúce sa nepýtať</string>
+    <string name="default_message">Táto aplikácia využíva mobilnú dátovú sieť alebo Wi-Fi. Overte si u svojho operátora presné poplatky za využitie dát.</string>
+</resources>

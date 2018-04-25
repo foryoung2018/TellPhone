@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="htcCompundButtonStyle">
+        <attr name="android:drawable" /> <!-- outer -->
+        <attr name="android:icon" /> <!-- pressed -->
+        <attr name="android:src" /> <!-- inner -->
+        <attr name="android:track" /> <!-- rest -->
+        <attr name="android:thumb" /> <!-- on -->
+        <attr name="android:disabledAlpha" />
+    </declare-styleable>
+
+    <attr name="htcCheckBoxStyle" format="reference" />
+    <attr name="htcDeleteButtonStyle" format="reference" />
+    <attr name="htcFlagButtonStyle" format="reference" />
+    <attr name="htcLoveButtonStyle" format="reference" />
+    <attr name="htcRadioButtonStyle" format="reference" />
+    <attr name="htcStarButtonStyle" format="reference" />
+
+</resources>

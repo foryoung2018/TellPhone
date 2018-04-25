@@ -1,0 +1,251 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.adapterview.aut"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <application
+        android:allowBackup="true"
+        android:vmSafeMode="true"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.htc.adapterview.aut.HtcGridViewDemo"
+            android:configChanges="screenSize|orientation" >
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcGridViewOverFlingDemo"
+            android:configChanges="screenSize|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcListViewAddDeleteDemo"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcListViewExpandableDemo"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.htc.adapterview.aut.HtcListViewFastScrollerDemo"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.htc.adapterview.aut.HtcListViewReorderDemo"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.htc.adapterview.aut.CrabWalkViewDemo"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.TableViewDemo"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemo"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.htc.lib1.cc.app.HtcShareActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ThemeHtcShareActivity" />
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy1"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy01" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy2"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy02" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy3"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy03" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy4"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy04" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy5"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy05" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy6"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy06" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy7"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy07" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy8"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy08" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy9"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy09" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy10"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy10" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy11"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy11" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy12"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy12" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy13"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy13" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy14"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy14" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.htc.adapterview.aut.HtcShareViaDemoDummy15"
+            android:configChanges="orientation|screenSize"
+            android:label="Dummy15" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

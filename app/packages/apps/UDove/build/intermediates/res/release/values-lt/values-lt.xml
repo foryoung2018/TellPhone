@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string-array name="st_font_size_levels">
+        <item>Mažas</item><!--Small-->
+        <item>Vidutinis</item><!--Medium-->
+        <item>Didelis</item><!--Large-->
+        <item>Labai didelis</item><!--Extra large-->
+        <item>Didžiulis</item><!--Huge-->
+    </string-array>
+    <string-array name="weeklayout_secondary_text">
+        <item>Sk</item><!--SU-->
+        <item>Pr</item><!--M-->
+        <item>An</item><!--TU-->
+        <item>Tr</item><!--W-->
+        <item>Kt</item><!--TH-->
+        <item>Pn</item><!--F-->
+        <item>Št</item><!--SA-->
+    </string-array>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Eiti į pagrindinį puslapį"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Eiti į viršų"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Daugiau parinkčių"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Atlikta"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Peržiūrėti viską"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Pasirinkti programą"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ieškoti..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Išvalyti užklausą"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Paieškos užklausa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Paieška"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Pateikti užklausą"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Paieška balsu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Bendrinti naudojant"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Bendrinti naudojant „%s“"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sutraukti"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string name="accessibility_tap_action">Dukart bakstelėkite veiksmui</string>
+    <string name="add_comments">Pridėti komentarą</string>
+    <string name="am">AM</string>
+    <string name="button_hide_caption">Slėpti antraštę</string>
+    <string name="button_hide_description">Slėpti aprašymą</string>
+    <string name="button_show_caption">Rodyti antraštę</string>
+    <string name="button_show_description">Rodyti aprašymą</string>
+    <string name="carousel_title">Redaguoti skirtukus</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-lt/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Programai reikalingas „Android Wear“ programos naujinys."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Ši programa veiks tik atnaujinus „Android Wear“ programą."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Atnaujinkite „Android Wear“"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Įgal. „Google Play“ paslaugas"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Ši programa neveiks, jei neįgalinsite „Google Play“ paslaugų."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Įgalinti „Google Play“ paslaugas"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Užklausą pateikė „<ns1:g id="APP_NAME">%1$s</ns1:g>“"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Gauti „Google Play“ paslaugų"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Ši programa neveiks be „Google Play“ paslaugų, kurios neįdiegtos telefone."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Ši programa neveiks be „Google Play“ paslaugų, kurios neįdiegtos planšetiniame kompiuteryje."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Gauti „Google Play“ paslaugų"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Nurodytos paskyros šiame įrenginyje nėra. Pasirinkite kitą paskyrą."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Netinkama paskyra"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Norint naudoti programą būtina įgalinti „Google Play“ paslaugas."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Norint prisijungti prie „Google Play“ paslaugų reikia duomenų ryšio."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Tinklo klaida"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Norint naudoti programą būtina įdiegti „Google Play“ paslaugas."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Norint naudoti programą būtina atnaujinti „Google Play“ paslaugas."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"„Google Play“ paslaugų klaida"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Nežinoma „Google Play“ paslaugų problema."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Jūsų įrenginys nepalaiko „Google Play“ paslaugų, kuriomis remiasi kai kurios programos. Jei reikia pagalbos, susisiekite su gamintoju."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"„Google Play“ paslaugos"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Atnaujinti"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Ši programa neveiks, jei neatnaujinsite „Google Play“ paslaugų."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Atnaujinti „Google Play“ paslaugas"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Atidaryti telefonu"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Prisij."</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Prisij. naud. „Google“"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string name="common_string_hint_search_people">Ieškoti Žmonėse</string>
+    <string name="common_string_open_contact">Atidaryti kontaktą</string>
+    <string name="common_string_save_to_existing_contact">Įrašyti į esamą kontaktą</string>
+    <string name="common_string_save_to_people">Įrašyti į Žmones</string>
+    <string name="common_string_share_title">Dalintis per</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1/UserAgree/unspecified/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Neklausti daugiau</string>
+    <string name="default_message">Ši programėlė naudojasi mob. duomenų ryšiu arba „Wi-Fi“. Paklauskite savo vietinio ryšio operatoriaus, kokie duomenų perdavimo mokesčiai.</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string name="done">Atlikta</string>
+    <string name="label_day">Diena</string>
+    <string name="label_hour">Valanda</string>
+    <string name="label_minute">Minutė</string>
+    <string name="label_month">Mėnuo</string>
+    <string name="label_second">Sekundė</string>
+    <string name="label_year">Metai</string>
+    <string name="license_dialog_content">Kai kurias šiame telefone naudojamas piktogramas iš pradžių sukūrė „Google“, o vėliau modifikavo HTC pagal <a href="https://creativecommons.org/licenses/by/4.0/legalcode">„Creative Commons“ licenciją „Priskyrimas“, 4.0 versiją</a>.</string>
+    <string name="license_dialog_title">Google Material Icons</string>
+    <string name="ls_doubletap_drag">dukart bakstelėkite ir nuvilkite, kad nustatytumėte</string>
+    <string name="ls_edit_number_before_calling">Redaguoti numerį prieš skambinant</string>
+    <string name="ls_open_in_map">Atidaryti žemėlapyje</string>
+    <string name="ls_tablet_storage_error">Įvyko klaida jūsų planšetinio kompiuterio atmintinėje. Paleiskite savo įrenginį iš naujo arba suformatuokite atmintinę.</string>
+    <string name="menu_crop">Apkirpti</string>
+    <string name="menu_delete">Panaikinti</string>
+    <string name="menu_properties">Išsami informacija</string>
+    <string name="menu_protect_info">Apsaugos informacija</string>
+    <string name="menu_save_to_my_favorite">Nustatyti kaip parankinį</string>
+    <string name="menu_send_photo_link_by_email">Dalintis nuotraukos nuoroda</string>
+    <string name="menu_set_as">Nustatyti kaip</string>
+    <string name="menu_settings">Nustatymai</string>
+    <string name="menu_share">Dalintis</string>
+    <string name="menu_show_on_map">Rodyti žemėlapyje</string>
+    <string name="menu_slideshow">Skaidrių demonstravimas</string>
+    <string name="menu_view_full">Peržiūra</string>
+    <string name="menu_view_video">Leisti</string>
+    <string name="meun_rotate">Pasukti</string>
+    <string name="nn_unknown_error">Nežinoma klaida</string>
+    <string name="no">Ne</string>
+    <string name="pm">PM</string>
+    <string name="quickselection_share">Dalintis per</string>
+    <string name="refresh">Atnaujinti</string>
+    <string name="reminderview_common_unlock_hint_icon">Patraukti piktogramą aukštyn</string>
+    <string name="reminderview_common_unlock_hint_up">Patraukite į viršų, kad atrakintumėte</string>
+    <string name="st_action_bar_pull_down">Atleiskite, kad atnaujintumėte</string>
+    <string name="st_action_bar_updating">Naujinama...</string>
+    <string name="st_draggable_item">Vilktinas elementas</string>
+    <string name="st_loading">Įkeliama...</string>
+    <string name="st_more">Daugiau</string>
+    <string name="st_pull_down_refresh">Patraukite žemyn, kad atnaujintumėte</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-lt/values-lt.xml -->
+    <eat-comment/>
+    <string name="tab_remove_dialog_message">Jums liko vienas skirtukas. Norėdami šiai programai įtraukti daugiau skirtukų, meniu pasirinkite Redaguoti skirtukus / filtrus.</string>
+    <string name="unremovable_warning_text">Neįmanoma pašalinti šį skirtuką</string>
+    <string name="va_back">Atgal</string>
+    <string name="va_call">Skambinti</string>
+    <string name="va_cancel">Atšaukti</string>
+    <string name="va_clear">Išvalyti</string>
+    <string name="va_close">Uždaryti</string>
+    <string name="va_copy">Kopijuoti</string>
+    <string name="va_download">Atsisiųsti</string>
+    <string name="va_downloading">Atsisiunčiama</string>
+    <string name="va_finish">Baigti</string>
+    <string name="va_hide">Slėpti</string>
+    <string name="va_move_above">Perkelti į viršų</string>
+    <string name="va_move_below">Perkelti į apačią</string>
+    <string name="va_next">Kitas</string>
+    <string name="va_ok">Gerai</string>
+    <string name="va_open">Atidaryti</string>
+    <string name="va_reset">Nustatyti iš naujo</string>
+    <string name="va_send_mail">Siųsti laišką</string>
+    <string name="va_send_message">Siųsti pranešimą</string>
+    <string name="va_show_all">Rodyti visus</string>
+    <string name="yes">Taip</string>
+</resources>

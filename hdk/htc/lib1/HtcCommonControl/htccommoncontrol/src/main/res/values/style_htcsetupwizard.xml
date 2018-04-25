@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HtcWizardActivityStyle">
+        <item name="android:layout">@layout/wizard_activity</item>
+        <item name="android:background">@color/dark_primaryfont_color</item>
+        <item name="android:textAppearance">@style/fixed_list_body_primary_s</item>
+        <item name="android:listDivider">@drawable/section_divider_top</item>
+    </style>
+    <style name="HtcWizardActivityStyle.Dark">
+        <item name="android:background">@color/light_primaryfont_color</item>
+        <item name="android:textAppearance">@style/fixed_dark_list_body_primary_m</item>
+        <item name="android:listDivider">@drawable/section_b_divider_top</item>
+    </style>
+    <style name="HtcButtonWizardActivityStyle">
+        <item name="android:layout">@layout/wizard_button_activity</item>
+        <item name="android:textAppearance">@style/list_body_primary_xs</item>
+        <item name="android:listDivider">@drawable/inset_list_divider</item>
+        <item name="android:textViewStyle">@style/list_body_primary_m</item>
+    </style>
+    <style name="HtcButtonWizardActivityStyle.Dark">
+        <item name="android:textAppearance">@style/dark_list_body_primary_xs</item>
+        <item name="android:listDivider">@drawable/inset_list_divider_dark</item>
+        <item name="android:textViewStyle">@style/dark_list_body_primary_m</item>
+    </style>
+    <style name="HtcRadioListWizardActivityStyle" parent="@style/HtcButtonWizardActivityStyle">
+        <item name="android:layout">@layout/wizard_radio_list_activity</item>
+        <item name="android:listViewStyle">@layout/wizard_radio_listitem</item>
+        <item name="android:background">@drawable/common_app_bkg</item>
+    </style>
+    <style name="HtcRadioListWizardActivityStyle.Dark">
+        <item name="android:textAppearance">@style/dark_list_body_primary_xs</item>
+        <item name="android:listDivider">@drawable/inset_list_divider_dark</item>
+        <item name="android:textViewStyle">@style/dark_list_body_primary_m</item>
+        <item name="android:background">@drawable/common_app_bkg_dark</item>
+    </style>
+</resources>

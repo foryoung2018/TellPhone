@@ -1,0 +1,56 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.DeviceDefault.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="HtcPreference" parent="@style/HtcDeviceDefault">
+        <item name="android:textAppearanceMedium">@style/list_primary_m</item>
+        <item name="android:textAppearanceSmall">@style/list_secondary_m</item>
+        <item name="android:textColorSecondary">@color/light_primaryfont</item>
+    </style>
+
+    <style name="DemoHtcTheme" parent="@style/HtcDeviceDefault">
+        <item name="android:windowBackground">@drawable/common_app_bkg</item>
+    </style>
+
+    <style name="DemoHtcTheme.CategoryOne" parent="@style/HtcDeviceDefault.CategoryOne">
+        <item name="android:windowBackground">@drawable/common_app_bkg</item>
+    </style>
+
+    <style name="DemoHtcTheme.CategoryTwo" parent="@style/HtcDeviceDefault.CategoryTwo">
+        <item name="android:windowBackground">@drawable/common_app_bkg</item>
+    </style>
+
+    <style name="DemoHtcTheme.CategoryThree" parent="@style/HtcDeviceDefault.CategoryThree">
+        <item name="android:windowBackground">@drawable/common_app_bkg</item>
+    </style>
+
+    <style name="DemoHtcTheme.CategoryFour" parent="@style/HtcDeviceDefault.CategoryFour">
+        <item name="android:windowBackground">@drawable/common_app_bkg</item>
+    </style>
+
+    <style name="DemoHtcTheme.Dark" parent="@style/HtcDeviceDefault.Dark">
+        <item name="android:windowBackground">@drawable/common_app_bkg_dark</item>
+    </style>
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

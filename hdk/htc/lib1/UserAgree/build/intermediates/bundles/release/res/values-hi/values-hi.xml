@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-hi/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">मुझसे दोबारा न पूछें</string>
+    <string name="default_message">यह एप्लिकेशन मोबाइल डेटा या Wi-Fi का उपयोग करता है। डेटा उपयोग के बिल्कुल सही दर जानने के लिए अपने स्थानीय कैरियर से संपर्क करें।</string>
+</resources>

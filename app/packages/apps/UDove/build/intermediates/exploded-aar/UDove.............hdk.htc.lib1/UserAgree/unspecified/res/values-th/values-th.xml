@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-th/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">ไม่ต้องถามฉันอีกครั้ง</string>
+    <string name="default_message">แอพพลิเคชันนี้ใช้ข้อมูลโมบายล์หรือ Wi-Fi โปรดตรวจสอบอัตราค่าใช้บริการการใช้ข้อมูลกับผู้ให้บริการในพื้นที่ของคุณ</string>
+</resources>

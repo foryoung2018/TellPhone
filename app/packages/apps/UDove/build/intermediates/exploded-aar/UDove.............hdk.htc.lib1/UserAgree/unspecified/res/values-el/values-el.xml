@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-el/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Να μην ερωτηθώ ξανά</string>
+    <string name="default_message">Η εφαρμογή αυτή χρησιμοποιεί δίκτυο κινητής τηλεφωνίας ή Wi-Fi. Απευθυνθείτε στον τοπικό φορέα σας για να μάθετε επακριβώς τη χρέωση για τη χρήση δεδομένων.</string>
+</resources>

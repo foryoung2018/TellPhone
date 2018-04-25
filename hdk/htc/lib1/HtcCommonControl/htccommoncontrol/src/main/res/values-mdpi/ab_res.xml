@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="ab_height">54dp</dimen>
+    <dimen name="ab_margin_top">4px</dimen>
+    <dimen name="ab_margin_bottom">6px</dimen>
+    <dimen name="ab_pulldown_margin_top">8px</dimen>
+    <dimen name="ab_pulldown_margin_bottom">7px</dimen>
+    <dimen name="ab_photoframe_size">34dp</dimen>
+    <dimen name="ab_margin_for_footer">108px</dimen>
+    <dimen name="action_button_min_width">48dp</dimen>
+    <!-- control overall environment -->
+    <integer name="actionBar_activeItemPMax">3</integer>
+    <integer name="actionBar_activeItemLMax">3</integer>
+</resources>

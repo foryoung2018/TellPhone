@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string-array name="st_font_size_levels">
+        <item>صغير</item><!--Small-->
+        <item>متوسط</item><!--Medium-->
+        <item>كبير</item><!--Large-->
+        <item>كبير جدًا</item><!--Extra large-->
+        <item>ضخم</item><!--Huge-->
+    </string-array>
+    <string-array name="weeklayout_secondary_text">
+        <item>أح</item><!--SU-->
+        <item>اث</item><!--M-->
+        <item>ث</item><!--TU-->
+        <item>أر</item><!--W-->
+        <item>خ</item><!--TH-->
+        <item>ج</item><!--F-->
+        <item>س</item><!--SA-->
+    </string-array>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string name="accessibility_tap_action">انقر نقرًا مزدوجًا لاتخاذ إجراء</string>
+    <string name="add_comments">إضافة تعليق</string>
+    <string name="am">ص</string>
+    <string name="button_hide_caption">إخفاء الشرح</string>
+    <string name="button_hide_description">إخفاء الوصف</string>
+    <string name="button_show_caption">إظهار الشرح</string>
+    <string name="button_show_description">إظهار الوصف</string>
+    <string name="carousel_title">علامات</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ar/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"‏يتطلب أحد التطبيقات تحديثًا لتطبيق Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"‏لن يتم تشغيل هذا التطبيق ما لم تحدِّث تطبيق Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"‏تحديث Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"‏تمكين خدمات Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"‏لن يعمل هذا التطبيق ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"تم الطلب عن طريق <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"‏لن يتم تشغيل هذا التطبيق بدون خدمات Google Play، والتي لا تتوفر في هاتفك."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"‏لن يتم تشغيل هذا التطبيق بدون خدمات Google Play، والتي لا تتوفر في جهازك اللوحي."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"الحساب الذي تمّ تحديده غير موجود على الجهاز. يُرجى اختيار حساب آخر."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"حساب غير صالح"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"‏يتطلب أحد التطبيقات تمكين خدمات Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"‏يتطلب الاتصال بخدمات Google Play وجود اتصال بيانات."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"خطأ في الشبكة"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"‏يتطلب أحد التطبيقات تثبيت خدمات Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"‏يتطلب أحد التطبيقات تحديث خدمات Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"‏حدثت مشكلة غير معروفة في خدمات Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"‏خدمات Google Play التي تستجيب لها بعض تطبيقاتك لا تعمل على جهازك. يُرجى الاتصال بجهة التصنيع للحصول على المساعدة."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"‏خدمات Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"‏لن يتم تشغيل هذا التطبيق ما لم تحدِّث خدمات Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"تسجيل الدخول"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"‏تسجيل الدخول باستخدام Google"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string name="common_string_hint_search_people">البحث في الأشخاص</string>
+    <string name="common_string_open_contact">فتح جهة اتصال</string>
+    <string name="common_string_save_to_existing_contact">حفظ إلى جهة اتصال موجودة</string>
+    <string name="common_string_save_to_people">حفظ إلى أشخاص</string>
+    <string name="common_string_share_title">المشاركة عبر</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1/UserAgree/unspecified/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">لا تسألني مرة أخرى</string>
+    <string name="default_message">هذا التطبيق يستخدم البيانات المتنقلة أو Wi-Fi. تحقق مع الناقل المحلي الخاص بك لمعرفة المعدلات المضبوطة لاستخدام البيانات.</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string name="done">تم</string>
+    <string name="label_day">يوم</string>
+    <string name="label_hour">ساعة</string>
+    <string name="label_minute">دقيقة</string>
+    <string name="label_month">شهر</string>
+    <string name="label_second">ثانية</string>
+    <string name="label_year">السنة</string>
+    <string name="license_dialog_content">بعض الرموز المستخدمة في هذا الهاتف تم تصميمها في الأصل بواسطة Google وتم تعديلها بواسطة HTC بموجب <a href="https://creativecommons.org/licenses/by/4.0/legalcode">ترخيص المشاع الإبداعي نَسب المُصنَّف 4.0</a>.</string>
+    <string name="license_dialog_title">Google Material Icons</string>
+    <string name="ls_doubletap_drag">انقر نقرًا مزدوجًا واسحب للضبط</string>
+    <string name="ls_edit_number_before_calling">تحرير الرقم قبل الطلب</string>
+    <string name="ls_open_in_map">فتح في خريطة</string>
+    <string name="ls_tablet_storage_error">حدث خطأ في وحدة تخزين الكمبيوتر اللوحي. الرجاء إعادة تشغيل جهازك أو تهيئة وحدة التخزين.</string>
+    <string name="menu_crop">اقتصاص</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_properties">التفاصيل</string>
+    <string name="menu_protect_info">معلومات الحماية</string>
+    <string name="menu_save_to_my_favorite">تعيين كمفضلة</string>
+    <string name="menu_send_photo_link_by_email">مشاركة ارتباط الصورة</string>
+    <string name="menu_set_as">تعيين كـ</string>
+    <string name="menu_settings">إعدادات</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_show_on_map">إظهار على الخريطة</string>
+    <string name="menu_slideshow">عرض الشرائح</string>
+    <string name="menu_view_full">عرض</string>
+    <string name="menu_view_video">تشغيل</string>
+    <string name="meun_rotate">تدوير</string>
+    <string name="nn_unknown_error">خطأ غير معروف</string>
+    <string name="no">لا</string>
+    <string name="pm">م</string>
+    <string name="quickselection_share">المشاركة عبر</string>
+    <string name="refresh">تحديث</string>
+    <string name="reminderview_common_unlock_hint_icon">اسحب أيقونة لأعلى</string>
+    <string name="reminderview_common_unlock_hint_up">اسحب لأعلى لإلغاء التأمين</string>
+    <string name="st_action_bar_pull_down">تحرير للتحديث</string>
+    <string name="st_action_bar_updating">جارٍ التحديث...</string>
+    <string name="st_draggable_item">عنصر قابل للسحب</string>
+    <string name="st_loading">جاري التحميل...</string>
+    <string name="st_more">المزيد</string>
+    <string name="st_pull_down_refresh">اسحب لأسفل للتحديث</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-ar/values-ar.xml -->
+    <eat-comment/>
+    <string name="tab_remove_dialog_message">لديك علامة تبويب واحدة متبقية. لإضافة المزيد من علامات التبويب لهذا التطبيق، اختر "تحرير علامات التبويب/عوامل التصفية" في القائمة.</string>
+    <string name="unremovable_warning_text">تعذر إزالة علامة التبويب هذه</string>
+    <string name="va_back">السابق</string>
+    <string name="va_call">مكالمة</string>
+    <string name="va_cancel">إلغاء</string>
+    <string name="va_clear">مسح</string>
+    <string name="va_close">إغلاق</string>
+    <string name="va_copy">نسخ</string>
+    <string name="va_download">تنزيل</string>
+    <string name="va_downloading">جاري التنزيل</string>
+    <string name="va_finish">إنهاء</string>
+    <string name="va_hide">إخفاء</string>
+    <string name="va_move_above">تحريك لأعلى</string>
+    <string name="va_move_below">تحريك لأسفل</string>
+    <string name="va_next">التالي</string>
+    <string name="va_ok">موافق</string>
+    <string name="va_open">فتح</string>
+    <string name="va_reset">إعادة تعيين</string>
+    <string name="va_send_mail">إرسال بريد</string>
+    <string name="va_send_message">إرسال رسالة</string>
+    <string name="va_show_all">عرض الكل</string>
+    <string name="yes">نعم</string>
+</resources>

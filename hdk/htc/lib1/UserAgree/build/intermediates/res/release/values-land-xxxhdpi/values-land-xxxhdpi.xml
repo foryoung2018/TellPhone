@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-land-xxxhdpi/values-land-xxxhdpi.xml -->
+    <eat-comment/>
+    <dimen name="tab_indicator_height">16px</dimen>
+    <dimen name="tabbar_height">112px</dimen>
+</resources>

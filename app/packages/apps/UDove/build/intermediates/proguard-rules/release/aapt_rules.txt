@@ -1,0 +1,344 @@
+# view res/layout/abc_alert_dialog_material.xml #generated:130
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.internal.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:48
+-keep class android.support.v7.internal.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.internal.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.internal.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_action_mode_close_item_material.xml #generated:17
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:27
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:37
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:48
+# view res/layout/abc_search_view.xml #generated:116
+# view res/layout/abc_search_view.xml #generated:128
+# view res/layout/abc_search_view.xml #generated:38
+# view res/layout/abc_search_view.xml #generated:60
+# view res/layout/abc_search_view.xml #generated:97
+-keep class android.support.v7.internal.widget.TintImageView { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.internal.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.htc.feedback.AdditionalInfoService { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.htc.feedback.CustomizationReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.htc.feedback.FeedbackBugReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.htc.feedback.FeedbackReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.htc.feedback.FeedbackService { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.htc.feedback.PreviewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.htc.feedback.PreviewInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.htc.feedback.PrivacyPageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.htc.feedback.ReceiverService { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.htc.feedback.ReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.htc.feedback.ReportSettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.htc.feedback.SystemCrashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.htc.feedback.reportagent.ReportService { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.htc.feedback.reportagent.receiver.DevelopingReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:154
+-keep class com.htc.feedback.reportagent.receiver.PolicyReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.htc.feedback.reportagent.receiver.PowerConnectedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.htc.feedback.reportagent.receiver.ReportAgentReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.htc.feedback.reportagent.receiver.SetupWizardReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.htc.feedback.searchprovider.SettingIndexablesProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.htc.lib1.cc.app.HtcShareActivity { <init>(...); }
+
+# view res/layout/action_refresh.xml #generated:10
+-keep class com.htc.lib1.cc.widget.ActionBarProgressBar { <init>(...); }
+
+# view res/layout/action_refresh.xml #generated:19
+# view res/layout/action_refresh.xml #generated:37
+-keep class com.htc.lib1.cc.widget.ActionBarTextView { <init>(...); }
+
+# view res/layout/dialog_listitem.xml #generated:2
+# view res/layout/dialog_listitem_check.xml #generated:2
+# view res/layout/dialog_listitem_radio.xml #generated:2
+-keep class com.htc.lib1.cc.widget.CheckableHtcListItem { <init>(...); }
+
+# view res/layout/compose_recipient_block.xml #generated:21
+-keep class com.htc.lib1.cc.widget.HtcAutoCompleteTextView { <init>(...); }
+
+# view res/layout/dialog_checkpanel.xml #generated:19
+# view res/layout/dialog_checkpanel_dark.xml #generated:20
+# view res/layout/dialog_listitem_check.xml #generated:6
+# view res/layout/preference_widget_checkbox.xml #generated:2
+-keep class com.htc.lib1.cc.widget.HtcCheckBox { <init>(...); }
+
+# view res/layout/htc_date_picker_dialog.xml #generated:11
+-keep class com.htc.lib1.cc.widget.HtcDatePicker { <init>(...); }
+
+# view res/layout/preference_dialog_edittext.xml #generated:16
+# view res/layout/preference_dialog_edittext_dark.xml #generated:16
+-keep class com.htc.lib1.cc.widget.HtcEditText { <init>(...); }
+
+# view ar/res/layout-ar/wizard_activity.xml #generated:62
+# view fa/res/layout-fa/wizard_activity.xml #generated:62
+# view iw/res/layout-iw/wizard_activity.xml #generated:62
+# view res/layout/wizard_activity.xml #generated:62
+-keep class com.htc.lib1.cc.widget.HtcFooter { <init>(...); }
+
+# view ar/res/layout-ar/wizard_activity.xml #generated:68
+# view ar/res/layout-ar/wizard_activity.xml #generated:72
+# view fa/res/layout-fa/wizard_activity.xml #generated:68
+# view fa/res/layout-fa/wizard_activity.xml #generated:72
+# view iw/res/layout-iw/wizard_activity.xml #generated:68
+# view iw/res/layout-iw/wizard_activity.xml #generated:72
+# view res/layout/wizard_activity.xml #generated:68
+# view res/layout/wizard_activity.xml #generated:72
+-keep class com.htc.lib1.cc.widget.HtcFooterButton { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:122
+# view res/layout/alert_dialog.xml #generated:136
+# view res/layout/alert_dialog.xml #generated:150
+# view res/layout/alert_dialog_dark.xml #generated:123
+# view res/layout/alert_dialog_dark.xml #generated:137
+# view res/layout/alert_dialog_dark.xml #generated:151
+-keep class com.htc.lib1.cc.widget.HtcIconButton { <init>(...); }
+
+# view res/layout/more_expandable_list_indicator.xml #generated:2
+-keep class com.htc.lib1.cc.widget.HtcIndicatorButton { <init>(...); }
+
+# view ar/res/layout-ar/wizard_radio_listitem.xml #generated:2
+# view fa/res/layout-fa/wizard_radio_listitem.xml #generated:2
+# view iw/res/layout-iw/wizard_radio_listitem.xml #generated:2
+# view res/layout/preference.xml #generated:2
+# view res/layout/preference_child.xml #generated:2
+# view res/layout/preference_information.xml #generated:2
+# view res/layout/wizard_radio_listitem.xml #generated:2
+-keep class com.htc.lib1.cc.widget.HtcListItem { <init>(...); }
+
+# view ar/res/layout-ar/wizard_radio_listitem.xml #generated:9
+# view fa/res/layout-fa/wizard_radio_listitem.xml #generated:9
+# view iw/res/layout-iw/wizard_radio_listitem.xml #generated:9
+# view res/layout/wizard_radio_listitem.xml #generated:5
+-keep class com.htc.lib1.cc.widget.HtcListItem2LineText { <init>(...); }
+
+# view res/layout/dialog_listitem.xml #generated:5
+# view res/layout/dialog_listitem_check.xml #generated:5
+# view res/layout/dialog_listitem_radio.xml #generated:5
+-keep class com.htc.lib1.cc.widget.HtcListItemSingleText { <init>(...); }
+
+# view ar/res/layout-ar/wizard_activity.xml #generated:53
+# view fa/res/layout-fa/wizard_activity.xml #generated:53
+# view iw/res/layout-iw/wizard_activity.xml #generated:53
+# view res/layout/select_dialog.xml #generated:26
+# view res/layout/wizard_activity.xml #generated:53
+-keep class com.htc.lib1.cc.widget.HtcListView { <init>(...); }
+
+# view res/layout/timer_table2.xml #generated:34
+# view res/layout/timer_table2.xml #generated:40
+# view res/layout/timer_table2.xml #generated:47
+# view res/layout/timer_table2.xml #generated:54
+# view res/layout/timer_table2.xml #generated:80
+# view res/layout/timer_table2.xml #generated:9
+# view res/layout/timer_table3.xml #generated:24
+# view res/layout/timer_table3.xml #generated:4
+# view res/layout/timer_table3.xml #generated:44
+# view res/layout/timer_table3.xml #generated:64
+-keep class com.htc.lib1.cc.widget.HtcNumberPicker { <init>(...); }
+
+# view ar/res/layout-ar/wizard_activity.xml #generated:22
+# view fa/res/layout-fa/wizard_activity.xml #generated:22
+# view iw/res/layout-iw/wizard_activity.xml #generated:22
+# view res/layout/wizard_activity.xml #generated:22
+-keep class com.htc.lib1.cc.widget.HtcOverlapLayout { <init>(...); }
+
+# view ar/res/layout-ar/wizard_activity.xml #generated:36
+# view fa/res/layout-fa/wizard_activity.xml #generated:36
+# view iw/res/layout-iw/wizard_activity.xml #generated:36
+# view res/layout/alert_dialog_progress.xml #generated:26
+# view res/layout/alert_dialog_progress_dark.xml #generated:26
+# view res/layout/wizard_activity.xml #generated:36
+-keep class com.htc.lib1.cc.widget.HtcProgressBar { <init>(...); }
+
+# view ar/res/layout-ar/wizard_radio_listitem.xml #generated:5
+# view fa/res/layout-fa/wizard_radio_listitem.xml #generated:5
+# view iw/res/layout-iw/wizard_radio_listitem.xml #generated:5
+# view res/layout/dialog_listitem_radio.xml #generated:6
+# view res/layout/wizard_radio_listitem.xml #generated:6
+-keep class com.htc.lib1.cc.widget.HtcRadioButton { <init>(...); }
+
+# view land/res/layout-land/wizard_button_activity.xml #generated:47
+# view res/layout/wizard_button_activity.xml #generated:42
+-keep class com.htc.lib1.cc.widget.HtcRimButton { <init>(...); }
+
+# view res/layout/multiple_seekbar_dialog.xml #generated:52
+-keep class com.htc.lib1.cc.widget.HtcSeekBar { <init>(...); }
+
+# view res/layout/activity_htcshareactivity.xml #generated:52
+# view res/layout/activity_htcshareactivity_dark.xml #generated:52
+-keep class com.htc.lib1.cc.widget.HtcShareGridView { <init>(...); }
+
+# view res/layout/activity_htcshareactivity.xml #generated:3
+# view res/layout/activity_htcshareactivity_dark.xml #generated:3
+-keep class com.htc.lib1.cc.widget.HtcShareSlidingUpPanelLayout { <init>(...); }
+
+# view res/layout/adapteritem_resolveinfo.xml #generated:3
+# view res/layout/adapteritem_resolveinfo_dark.xml #generated:3
+-keep class com.htc.lib1.cc.widget.HtcShareTextView { <init>(...); }
+
+# view res/layout/htc_time_picker_dialog.xml #generated:11
+-keep class com.htc.lib1.cc.widget.HtcTimePicker { <init>(...); }
+
+# view res/layout/number_picker.xml #generated:9
+-keep class com.htc.lib1.cc.widget.MyTableView { <init>(...); }
+
+# view res/layout/alert_dialog.xml #generated:21
+# view res/layout/alert_dialog_dark.xml #generated:21
+-keep class com.htc.lib1.cc.widget.ShadowLinearLayout { <init>(...); }
+
+# view res/layout/preference_widget_seekbar.xml #generated:64
+-keep class com.htc.lib1.cc.widget.preference.HtcSeekBarPreference { <init>(...); }
+
+# view res/layout/preference_widget_switch.xml #generated:2
+-keep class com.htc.lib1.cc.widget.preference.MySwitchPreference { <init>(...); }
+
+# view res/layout/preference.xml #generated:10
+# view res/layout/preference_child.xml #generated:13
+# view res/layout/preference_information.xml #generated:13
+-keep class com.htc.lib1.cc.widget.preference.Preference2LineText { <init>(...); }
+
+# view res/layout/dontuse_preference_widget_seekbar.xml #generated:10
+# view res/layout/preference.xml #generated:6
+# view res/layout/preference_child.xml #generated:7
+# view res/layout/preference_information.xml #generated:7
+# view res/layout/preference_widget_seekbar_dark.xml #generated:10
+-keep class com.htc.lib1.cc.widget.preference.PreferenceColorIcon { <init>(...); }
+
+# view res/layout/dontuse_preference_widget_seekbar.xml #generated:55
+# view res/layout/preference_widget_seekbar_dark.xml #generated:55
+# view res/layout/preference_widget_seekbar_dialog.xml #generated:13
+-keep class com.htc.lib1.cc.widget.preference.PreferenceSeekBar { <init>(...); }
+
+# view res/layout/preference_category.xml #generated:2
+-keep class com.htc.lib1.cc.widget.preference.PreferenceSeparator { <init>(...); }
+
+# view res/layout/dontuse_preference_widget_switch.xml #generated:2
+-keep class com.htc.lib1.cc.widget.preference.PreferenceSwitch { <init>(...); }
+
+# view res/layout/layout_quicktips.xml #generated:1
+-keep class com.htc.lib1.cc.widget.quicktips.RotateRelativeLayout { <init>(...); }
+
+# view res/layout/compose_recipient_block.xml #generated:39
+-keep class com.htc.lib1.cc.widget.recipientblock.ComposeRecipientArea { <init>(...); }
+
+# view res/layout/recipient_item.xml #generated:8
+-keep class com.htc.lib1.cc.widget.recipientblock.HtcRecipientButton { <init>(...); }
+
+# view res/layout/main_lockscreen_reminderview.xml #generated:14
+-keep class com.htc.lib1.cc.widget.reminder.ui.ForegroundContainer { <init>(...); }
+
+# view res/layout/main_lockscreen_reminderview.xml #generated:48
+-keep class com.htc.lib1.cc.widget.reminder.ui.HintView { <init>(...); }
+
+# view res/layout/main_lockscreen_reminderview.xml #generated:56
+# view res/layout/specific_lockscreen_buttonpanel_2.xml #generated:14
+# view res/layout/specific_lockscreen_buttonpanel_2.xml #generated:45
+# view res/layout/specific_lockscreen_buttonpanel_3.xml #generated:16
+# view res/layout/specific_lockscreen_buttonpanel_3.xml #generated:47
+# view res/layout/specific_lockscreen_buttonpanel_3.xml #generated:78
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:111
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:15
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:47
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:79
+-keep class com.htc.lib1.cc.widget.reminder.ui.SWLayerTextView { <init>(...); }
+
+# view res/layout/main_lockscreen_reminderview.xml #generated:6
+-keep class com.htc.lib1.cc.widget.reminder.ui.footer.ReminderPanel { <init>(...); }
+
+# view res/layout/specific_lockscreen_buttonpanel_2.xml #generated:38
+# view res/layout/specific_lockscreen_buttonpanel_2.xml #generated:7
+# view res/layout/specific_lockscreen_buttonpanel_3.xml #generated:40
+# view res/layout/specific_lockscreen_buttonpanel_3.xml #generated:71
+# view res/layout/specific_lockscreen_buttonpanel_3.xml #generated:9
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:103
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:39
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:7
+# view res/layout/specific_lockscreen_buttonpanel_4.xml #generated:71
+-keep class com.htc.lib1.cc.widget.reminder.ui.footer.ReminderSphere { <init>(...); }
+
+# view land/res/layout-land/wizard_radio_list_activity.xml #generated:33
+# view res/layout/wizard_radio_list_activity.xml #generated:28
+-keep class com.htc.lib1.cc.widget.setupwizard.HtcItemContainerListView { <init>(...); }
+
+# view res/layout/preference_widget_seekbar_dialog.xml #generated:8
+-keep class om.htc.lib1.cc.widget.preference.PreferenceColorIcon { <init>(...); }
+

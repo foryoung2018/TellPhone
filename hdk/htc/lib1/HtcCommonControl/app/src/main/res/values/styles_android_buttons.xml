@@ -1,0 +1,19 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="RaisedButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/btn_raised_color</item>
+    </style>
+
+    <style name="FlatButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/btn_raised_color</item>
+    </style>
+
+    <style name="CustomRaisedButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/btn_raised_color</item>
+    </style>
+
+    <style name="CustomFlatButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/btn_custom_flat_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Refer to HtcPowerManager's dimens.xml -->
+
+    <!-- ActionBar height -->
+    <dimen name="actionbar_size">56dip</dimen>
+
+    <!-- ActionBar contentInsetStart -->
+    <dimen name="actionbar_contentInsetStart">0dp</dimen>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/margin_l"
+    android:layout_marginTop="@dimen/margin_m_2"
+    android:overScrollMode="ifContentScrolls" >
+
+    <LinearLayout
+        android:id="@+id/edittext_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_m" >
+
+        <com.htc.lib1.cc.widget.HtcEditText
+            android:id="@android:id/edit"
+            style="@style/htcEditTextStyleDefault.Dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/layout/preference_dialog_edittext.xml --><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/layout/preference_dialog_edittext.xml -->

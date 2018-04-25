@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- HTC's base theme style -->
+    <style name="HtcTheme" parent="HtcDeviceDefault">
+        <!-- Set for starting window style -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+    
+    <!-- Refer to @android:style/Theme.Holo.Panel -->
+    <style name="MyHtcAlertActivityTheme" parent="HtcTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- origin theme is @*android:style/Theme.Translucent.NoTitleBar -->
+    <style name="MyTranslucentNoTitleBarTheme">
+    	<item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:navigationBarColor">@color/htc_settings_actionbar_color_o</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+    
+    <style name="MyCrashDialog" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+    <!-- [2015/12/24][sy_wang] Sense 8 Settings UI should apply Google style on HTC ActionBar.
+         Since HtcPowerManager is an isolated package in Settings, just like UDove, so we refer to
+         HtcPowerManager's themes.xml. But we use Android's Preference instead of HtcPreference,
+         so we ignore its Preference style and only keep ActionBar style. -->
+    <style name="MySettingTheme" parent="@style/Theme.Settings">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- Style from HtcPowerManager (begin) -->
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Settings" />
+
+    <style name="Theme.Settings" parent="Theme.SettingsBase">
+        <!-- Redefine the ActionBar style for contentInsetStart -->
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="@*android:actionBarSize">@dimen/actionbar_size</item>
+
+        <!-- HTC, 20151118, Sense80 common control needs this attribute to init actionbar background
+             reference:
+                 hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/java/com/htc/lib1/cc/util/ActionBarUtil.java#getActionBarBackground
+                 hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/values/themes.xml#HtcDeviceDefault
+        -->
+        <item name="multiply_color">@color/htc_settings_actionbar_color</item>
+    </style>
+
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+    </style>
+    <!-- Style from HtcPowerManager (end) -->
+
+</resources>

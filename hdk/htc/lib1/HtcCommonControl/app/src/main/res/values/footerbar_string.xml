@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="footerbar_landscape_text1">Choose Background Color</string>
+    <string name="footerbar_landscape_text2">Demo Light(Default) Mode</string>
+    <string name="footerbar_landscape_text3">Demo Dark Mode</string>
+    <string name="footerbar_landscape_text4">Demo Transparent Mode</string>
+    <string name="footerbar_landscape_text5">Dark Color Background</string>
+    <string name="footerbar_landscape_text6">Medium color Background</string>
+    <string name="footerbar_landscape_text7">Light Color Background</string>
+    <string-array name="footerbar_overlay_list">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Children</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Foreign</item>
+        <item>History</item>
+        <item>Independent</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+        <item>Television</item>
+        <item>Thriller</item>
+    </string-array>
+    <string name="footerbar_portrait_buttontext">FooterButtonTextMode</string>
+    <string name="footerbar_portrait_sample">Enable &amp; Disalbe sample</string>
+    <string name="footerbar_portrait_icon">HtcFooterButton set attribute oandroid:drawableTop to set icon </string>
+    <string name="footerbar_special_weight">footer can apply weight</string>
+</resources>

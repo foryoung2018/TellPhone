@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autocomplete_textview_demo_hint_false">يمكن ينزل من العرض (خطأ)</string>
+    <string name="autocomplete_textview_demo_hint_true">يمكن ينزل من عرض (صحيح)</string>
+    <string name="google_style">على غرار جوجل القطعة</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-lv/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Nejautāt man vēlreiz</string>
+    <string name="default_message">Šī lietojumprogramma izmanto mobilo datu vai Wi-Fi savienojumu. Pārbaudiet ar savu vietējo pakalpojumu sniedzēju, lai noskaidrotu precīzos datu lietošanas tarifus.</string>
+</resources>

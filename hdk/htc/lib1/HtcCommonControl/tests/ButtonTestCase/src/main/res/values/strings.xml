@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ButtonAut</string>
+    <string name="button_demo_string_1">@string/ls_tablet_storage_error</string>
+    <string name="button_demo_string_2">@string/nn_unknown_error</string>
+
+</resources>

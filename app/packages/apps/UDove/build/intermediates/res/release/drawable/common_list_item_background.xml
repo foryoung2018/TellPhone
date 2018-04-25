@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@android:color/transparent"/>
+    <item android:drawable="@android:color/transparent"/>
+    <!-- keypad selection highlight -->
+    <!--
+        <item>
+        <selector>
+        <item
+        android:drawable="@drawable/list_selector_background_pressed"
+        android:state_selected="true"
+        android:state_enabled = "true"/>
+        </selector>
+        </item>
+    -->
+</layer-list><!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/HtcCommonControl/htccommoncontrol/src/main/res/drawable/common_list_item_background.xml --><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/drawable/common_list_item_background.xml -->

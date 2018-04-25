@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HtcIndicatorButton">
+        <attr name="indicatorMode">
+            <enum name="defaultMode" value="0" />
+            <enum name="darkMode" value="1" />
+        </attr>
+        <attr name="android:drawableBottom"/>
+        <attr name="android:drawable"/>
+    </declare-styleable>
+    <attr name="htcIndicatorButtonStyle" format="reference"/>
+</resources>

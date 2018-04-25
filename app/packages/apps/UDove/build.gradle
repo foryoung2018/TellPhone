@@ -1,0 +1,129 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+        maven{ url "http://prebuild-repositories.htc.com.tw:8081/artifactory/HTC-release"}
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:1.2.2"
+        classpath "com.htc.plugin:htcgradleplugin:1.0.0"
+    }
+}
+
+allprojects {
+    apply from: "${project.rootDir}/common.gradle"
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor 0, "seconds"
+    }
+    repositories {
+        jcenter()
+        mavenServer.each{ urls-> maven{ url urls.value.toString() } }
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'htcgradleplugin'
+
+def extraLibraryFile = new File("${project.projectDir}/extraLibraries.gradle")
+if(extraLibraryFile.exists()){
+    apply from: "${project.projectDir}/extraLibraries.gradle"
+}
+
+dependencies {
+    compile project(":..:..:..:..:hdk:htc:lib0:Customization")
+    compile project(":..:..:..:..:hdk:htc:lib0:HDKUtil")
+    compile project(":..:..:..:..:hdk:htc:lib0:HtcDebugFlag")
+    compile project(":..:..:..:..:hdk:htc:lib1:HtcCommonControl:htccommoncontrol")
+    compile project(":..:..:..:..:hdk:htc:lib1:HtcCrypto")
+    compile project(":..:..:..:..:hdk:htc:lib1:HtcTheme")
+    compile project(":..:..:..:..:hdk:htc:lib1:UserAgree")
+    compile project(":..:..:..:..:hdk:htc:lib2:HtcConfiguration")
+    compile project(":..:..:..:..:hdk:htc:lib2:WeatherLib2")
+    compile(group: 'com.htc.cs', name: 'bouncycastle-lite', version: '1.52-SNAPSHOT')
+
+    if (extraLibraryFile.exists()){
+        extraLibrary.each{compile it}
+    }
+}
+
+android {
+    compileSdkVersion "${project.ext.sdkVersion}"
+    buildToolsVersion "${project.ext.toolVersion}"
+    enforceUniquePackageName=false
+
+    defaultConfig {
+        multiDexEnabled true
+    }
+
+//    signingConfigs {
+//        release {
+//            storeFile file("/home/user/SDK_path/PrebuildAPP-tools/keystore/hms.jks")
+//            storePassword "android"
+//            keyAlias "hms"
+//            keyPassword "android"
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+//            signingConfig signingConfigs.release
+            shrinkResources true
+            proguard.each{proguardFile file(it)}
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile "AndroidManifest.xml"
+            java.srcDirs = ["src"]
+            jniLibs.srcDirs = ["libs"]
+            resources.srcDirs = ["src"]
+            aidl.srcDirs = ["src"]
+            renderscript.srcDirs = ["src"]
+            res.srcDirs = ["res"]
+            assets.srcDirs = ["assets"]
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "2g"
+        jumboMode = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+}
+
+//A task to get system environment variable such as 'HOME', 'HTC_DEBUG_FLAG', etc...
+task checkEnvVariable{
+    println System.getenv('HTC_DEBUG_FLAG') //Print out variable 'HTC_DEBUG_FLAG'
+
+    if(System.getenv('HTC_DEBUG_FLAG') == "debug"){
+        //Do the this in this scope when HTC_DEBUG_FLAG variable is debug
+        //You could use ${project.projectDir} variable to access the files of your project workspace
+    }
+
+    if(System.getenv('APK_NAME') == "xxxx"){
+        //Do the this in this scope when APK_NAME is xxxx
+    }
+}
+
+//Add this task prior to 'preReleaseBuild' task when doing ./gradlew assembleRelease
+tasks.whenTaskAdded { task ->
+    if (task.name == 'preReleaseBuild') {
+        task.dependsOn checkEnvVariable
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThemeColorStylable" parent="@style/HtcDeviceDefault">
+        <attr name="category_color"/>
+		<attr name="light_category_color"/>
+		<attr name="dark_category_color"/>
+		<attr name="list_item_bg_center_color" />
+    </declare-styleable>
+</resources>

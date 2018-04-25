@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Non chiedere di nuovo</string>
+    <string name="default_message">L\'applicazione usa i dati mobile o il Wi-Fi. Verificare con l\'operatore locale per conoscere i costi esatti per l\'utilizzo dei dati.</string>
+</resources>

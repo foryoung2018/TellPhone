@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">今後表示しない</string>
+    <string name="default_message">このアプリはモバイルデータか Wi-Fi を使用します。データ使用にかかる追加料金については、お近くのモバイル通信会社にお尋ねください。</string>
+</resources>

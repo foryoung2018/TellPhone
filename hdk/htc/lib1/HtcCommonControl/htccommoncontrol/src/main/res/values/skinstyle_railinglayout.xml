@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HtcRailingLayout">
+        <item name="android:divider">@drawable/common_b_div_land</item>
+    </style>
+
+    <style name="HtcRailingLayout.Light">
+        <item name="android:divider">@drawable/common_list_divider</item>
+    </style>
+
+</resources>

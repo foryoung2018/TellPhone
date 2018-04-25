@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HtcEmptyView">
+        <item name="android:titleTextStyle">@style/list_body_l</item>
+        <item name="android:subtitleTextStyle">@style/fixed_list_body_m</item>
+    </style>
+
+    <style name="HtcEmptyView.Light">
+        <item name="android:titleTextStyle">@style/list_body_secondary_l</item>
+        <item name="android:subtitleTextStyle">@style/fixed_list_secondary</item>
+    </style>
+
+</resources>

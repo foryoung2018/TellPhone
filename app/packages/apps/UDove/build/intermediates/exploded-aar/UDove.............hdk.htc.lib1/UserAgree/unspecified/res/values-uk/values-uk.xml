@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Більше не запитувати</string>
+    <string name="default_message">Ця програма використовує мобільне передавання даних або Wi-Fi. Дізнайтеся у вашого місцевого оператора точні ціни на використання даних.</string>
+</resources>

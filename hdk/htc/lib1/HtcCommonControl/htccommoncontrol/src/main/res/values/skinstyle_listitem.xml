@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    /*
+    * Copyright (C) 2008 Google Inc.
+    *
+    * Licensed under the Apache License, Version 2.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    * http://www.apache.org/licenses/LICENSE-2.0
+    *
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    */
+-->
+<resources>
+
+    <style name="htcListItem">
+
+        <!-- skinable attribute -->
+        <item name="android:background">@drawable/common_list_item_background</item>
+        <!-- skinable attribute -->
+        <item name="android:drawable">@drawable/common_list_item_background_activated</item>
+        <!-- skinable attribute -->
+        <item name="android:repeatCount">@drawable/common_circle_pressed</item>
+        <!-- skinable attribute -->
+        <item name="android:divider">@null</item>
+        <!-- <item name="android:src">@drawable/common_b_bg_div</item> -->
+        <item name="android:childDivider">@drawable/common_list_divider</item>
+        <item name="android:childIndicator">@drawable/common_b_div_land</item>
+        <!-- mode appearance attribute -->
+        <item name="android:textAppearance">@style/list_primary_m</item>
+        <item name="android:textAppearanceLarge">@style/list_secondary_m</item>
+        <item name="android:textAppearanceMedium">@style/fixed_list_secondary</item>
+        <item name="android:textAppearanceSmall">@style/info_primary_m</item>
+        <item name="android:textAppearanceLargeInverse">@style/list_body_primary_m</item>
+        <item name="android:textAppearanceMediumInverse">@style/fixed_notification_info_m</item>
+        <item name="android:textAppearanceSmallInverse">@style/separator_primary_l</item>
+        <item name="android:textAppearanceInverse">@style/separator_secondary_m</item>
+        <item name="android:textColorPrimary">@style/fixed_separator_primary_m</item>
+        <item name="android:textColorPrimaryDisableOnly">@style/fixed_list_primary_xxs</item>
+        <item name="android:textColorPrimaryInverse">@dimen/list_primary_m</item>
+        <item name="android:textColorSecondaryInverse">@dimen/list_secondary_m</item>
+    </style>
+
+     <style name="htcListItem.Dark">
+        <item name="android:textAppearance">@style/darklist_primary_m</item>
+        <item name="android:textAppearanceLarge">@style/darklist_secondary_m_temp</item>
+        <item name="android:textAppearanceMedium">@style/fixed_darklist_secondary</item>
+        <item name="android:textAppearanceSmall">@style/darkinfo_primary_m</item>
+        <item name="android:textAppearanceLargeInverse">@style/darklist_body_primary_m</item>
+        <item name="android:textAppearanceMediumInverse">@style/fixed_darknotification_info_m</item>
+        <item name="android:textAppearanceSmallInverse">@style/darkseparator_primary_l_temp</item>
+        <item name="android:textAppearanceInverse">@style/b_separator_secondary_m</item>
+        <item name="android:textColorPrimary">@style/fixed_b_separator_primary_m</item>
+        <item name="android:textColorPrimaryDisableOnly">@style/fixed_darklist_primary_xxs</item>
+    </style>
+
+    <style name="htcListItem.Popupmenu">
+        <item name="android:textAppearance">@style/list_primary_s</item>
+        <item name="android:textAppearanceLarge">@style/list_secondary_s</item>
+        <item name="android:textColorPrimaryInverse">@dimen/list_primary_s</item>
+        <item name="android:textColorSecondaryInverse">@dimen/list_secondary_s</item>
+    </style>
+
+    <style name="htcListItem.Dark.Popupmenu">
+        <item name="android:textAppearance">@style/darklist_primary_s</item>
+        <item name="android:textAppearanceLarge">@style/darklist_secondary_s</item>
+        <item name="android:textColorPrimaryInverse">@dimen/list_primary_s</item>
+        <item name="android:textColorSecondaryInverse">@dimen/list_secondary_s</item>
+    </style>
+
+    <style name="htcListItem.MediumHeight">
+        <item name="android:textAppearance">@style/fixed_list_primary_m</item>
+        <item name="android:textAppearanceLarge">@style/fixed_list_secondary_m</item>
+        <item name="android:textAppearanceLargeInverse">@style/fixed_list_body_primary_m</item>
+        <item name="android:textAppearanceSmallInverse">@style/fixed_separator_primary_l</item>
+        <item name="android:textColorPrimaryInverse">@dimen/fixed_list_primary_m</item>
+        <item name="android:textColorSecondaryInverse">@dimen/fixed_list_secondary_m</item>
+    </style>
+
+    <style name="htcListItem.Dark.MediumHeight">
+        <item name="android:textAppearance">@style/fixed_darklist_primary_m</item>
+        <item name="android:textAppearanceLarge">@style/fixed_darklist_secondary_m</item>
+        <item name="android:textColorPrimaryInverse">@dimen/fixed_list_primary_m</item>
+        <item name="android:textColorSecondaryInverse">@dimen/fixed_list_secondary_m</item>
+    </style>
+
+    <style name="htcListItem.NoContent">
+        <item name="android:textAppearance">@style/list_body_secondary_l</item>
+    </style>
+
+    <style name="htcListItem.Dark.NoContent">
+        <item name="android:textAppearance">@style/darklist_primary_l</item>
+    </style>
+
+    <style name="HtcListItemSerialNumber">
+        <item name="android:textAppearance">@style/list_body_secondary_xl</item>
+        <item name="android:textColor">@color/light_separatorfont_color</item>
+    </style>
+
+    <style name="HtcListItemSerialNumber.Dark">
+        <item name="android:background">@drawable/common_photo_frame</item>
+        <item name="android:textColor">@color/dark_primaryfont_color</item>
+    </style>
+</resources>

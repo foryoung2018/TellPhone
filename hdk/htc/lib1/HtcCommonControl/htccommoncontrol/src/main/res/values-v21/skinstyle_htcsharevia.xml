@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HtcShareVia" parent="BaseHtcShareVia">
+        <item name="android:listSelector">@drawable/list_selector_dark</item>
+    </style>
+
+    <style name="HtcShareVia.Light" parent="BaseHtcShareVia.Light">
+        <item name="android:listSelector">@drawable/list_selector_light</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-my-v21/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">မိမိအား ထပ်မမေးပါနှင့်</string>
+    <string name="default_message">ဤအက်ပ်သည် မိုဘိုင်းဒေတာ သို့မဟုတ် Wi-Fi သုံးသည်။ ဒေတာသုံးစွဲမှုအတွက် တိကျသောနှုန်းကို ရှာရန် သင့်ဒေသတွင်း သယ်ဆောင်သူနှင့် စစ်ဆေးပါ။</string>
+</resources>

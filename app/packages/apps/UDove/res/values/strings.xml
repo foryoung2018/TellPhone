@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Do not translate. Name of the Application -->
+    <string name="app_name">UDove</string>
+    <!-- Name of Tell HTC in Settings panel -->
+    <string name="setting_name">Usage and error reporting</string>
+    <!-- Name of Tell HTC in Settings panel for error report only -->
+    <string name="setting_name_error_only">Error reporting</string>
+    <!-- Accept button of alert dialog to report system crash log -->
+    <string name="btn_yes">Yes</string>        
+    <!-- Reject button of alert dialog to report system crash log -->
+    <string name="btn_no">No</string>
+    <!-- The label of button to close app -->
+    <string name="btn_close">Close</string>
+    <!-- The title of error dialog-->
+    <string name="title_error_dialog">Sorry!</string>
+    
+    <!-- The title of HTC feedback client term of service page -->
+    <string name="title_htc_tos">Privacy policy</string>
+    <!-- The label of button OK -->
+    <string name="btn_ok">OK</string>
+    <!-- The label of button Send report-->
+    <string name="btn_send_report">Send report</string>
+    <!-- The label of button Don't send -->
+    <string name="btn_dont_send">Don\'t send</string>
+    
+    <!-- The label of loading in progress dialog -->
+    <string name="progress_loading">Loading...</string>
+    <!-- The label of data fee warning in alert dialog -->
+    <string name="data_fee_warning">Data fee warning</string>
+    
+    <!-- The label of button under reporting page to send feedback data -->
+    <string name="btn_feedback_send">Send</string>
+    <!-- The label of button under reporting page to setup feedback client settings -->
+    <string name="btn_feedback_settings">Settings</string>
+    <!-- The label of button under reporting page to cancel the current error report -->
+    <string name="btn_feedback_cancel">Cancel</string>
+    <!-- The default string of feedback edit box which allows users to input their feedback description -->
+    <string name="report_feedback_summary">Description (optional)</string>
+    <!-- The title of privacy item under reporting page to make sure user agrees the privacy statement -->
+    <string name="report_privacy_title">I agree the privacy statement</string>
+    <!-- The summary of privacy item under reporting page to make sure user agrees the privacy statement -->
+    <string name="report_privacy_summary">Please review our privacy statement for information on how we use error reports.</string>
+    <!-- The title of privacy item which links to HTC feedback client term of service page -->
+    <string name="report_privacy_link">Privacy statement</string>
+    <!-- The title of privacy item which links to HTC feedback client term of service page (<u> and </u> must be kept)-->
+    <string name="report_privacy_link_underline"><u>Privacy statement</u></string>
+    <!-- The title of location item under reporting page to check if user wants to attach location information to feedback data -->
+    <string name="report_location_title">Add location data</string>
+    <!-- The summary of privacy item under reporting page to check if user wants to attach location information to feedback data -->
+    <string name="report_location_summary">Including location data in the error report will help HTC better diagnose the problem.</string>
+    <!-- The title of preview item which links to HTC feedback client preview page -->
+    <string name="report_preview_link">Preview error report</string>
+    <!-- The title of preview item which links to HTC feedback client preview page (<u> and </u> must be kept)-->
+    <string name="report_preview_link_underline"><u>Preview error report</u></string>
+    <!-- The title of automatically send report item which allow user to send the report automatically when next error occurs -->
+    <string name="report_auto_send_title">Automatically send the report next time</string>
+    <!-- The text of note on Error reporting page -->
+    <string name="report_note">Note: This choice does not affect HTC\'s collection of data for aggregate reporting, usage data reporting, or improving and operating specific applications and services you use.</string>
+    
+    <!-- The summary of HTC feeback client setting page -->
+    <string name="feedback_setting_summary">Send an error report to HTC when my device has a problem</string>    
+    <!-- The title of feedback enable/disable item under feedback client setting page -->
+    <string name="feedback_setting_title">Enable Tell HTC service</string>
+    <!-- The title of preference network item under feedback client setting page -->
+    <string name="network_preference_title">Network preference</string>
+    <!-- The message of data warning dialog when user select prefer network as any available data connection -->
+    <string name="network_preference_message">Using this service over your mobile data connection may result in additional fees from your wireless provider if you do not have an unlimited data plan. Do you want to proceed with this change?</string>
+    <!-- The title of auto-send preference item under feedback client setting page -->
+    <string name="auto_send_preference_title">Report preference</string>
+    <!-- The title of dialog for turning off Tell HTC -->
+    <string name="report_title_turn_off">Turn off Tell HTC?</string>
+    <!-- The message of turning off Tell HTC -->
+    <string name="report_message_turn_off">We suggest that you keep this option enabled in order to let HTC know about the problems you encounter and to help us to improve HTC Sense. Turn off Tell HTC?</string>
+    <!-- The option of turning off Tell HTC -->
+    <string name="report_btn_turn_off">Turn off</string>
+    <!-- The setting warning text of debug ROM -->
+    <string name="debug_setting_warning">Notwithstanding the above statement, this is a test device and is HTC’s property. By using this device, you understand and agree that HTC will collect aforementioned data. Such setting is automatically enabled and cannot be disabled.</string>
+    <!-- The text of note on Tell HTC and error reporting setting -->
+    <string name="setting_note">Note: Settings do not affect HTC\'s collection of data about phone activation, specific HTC apps and services used and other data collection activities described in HTC\'s %1$s. %2$s</string>
+    <!-- The text of privacy policy review -->
+    <string name="privacy_policy">Privacy Policy</string>
+    <!-- The text of learn more review -->
+    <string name="learn_more">Learn more</string>
+    <!-- Network unavailable dialog. Message. -->
+    <string name="dialog_msg_network_unavailable">You need a network connection to see this page. Please connect to mobile data or Wi-Fi.</string>
+    <!-- Network unavailable dialog. Title. -->
+    <string name="dialog_title_network_unavailable">Unable to connect</string>
+    <!-- Web page not available title for privacy policy -->
+    <string name="webpage_not_available_title">Webpage not available.</string>
+    <!-- Web page not available message for privacy policy -->
+    <string name="webpage_not_available_message">The link you are attempting to access is unavailable. Please see our privacy policy online at the following location: %s</string>
+    <!-- Message when loading privacy policy -->
+    <string name="privacy_loading_message">Please wait...</string>
+        
+    <!-- The title of HTC feeback client preview page -->
+    <string name="preview_title">Preview error report</string>
+    <!-- The title of error report category under preview page -->
+    <string name="preview_error_category">Error report</string>
+    <!-- The title of report type item under error report category -->
+    <string name="error_type">Report type</string>
+    <!-- The title of package name item under error report category -->
+    <string name="error_package_name">Package name</string>
+    <!-- The title of package version item under error report category -->
+    <string name="error_package_version">Package version</string>
+    <!-- The title of package version name item under error report category -->
+    <string name="error_package_version_name">Package version name</string>
+    <!-- The title of install by item under error report category -->
+    <string name="error_installed_by">Installed by</string>
+    <!-- The title of process name item under error report category -->
+    <string name="error_process_name">Process name</string>
+    <!-- The title of time item under error report category -->
+    <string name="error_time">Time</string>
+    <!-- The title of device up time item under error report category -->
+    <string name="error_up_time">Up time</string>
+    <!-- The title of device awake time item under error report category -->
+    <string name="error_awake_time">Awake time</string>       
+    <!-- The title of system item under error report category -->
+    <string name="error_system_app">System app</string>
+    <!-- The title of system category under preview page -->
+    <string name="preview_system_category">System</string>
+    <!-- The title of device item under system category -->
+    <string name="system_device">Device</string>
+    <!-- The title of build ID item under system category -->
+    <string name="system_build_id">Build ID</string>
+    <!-- The title of build type item under system category -->
+    <string name="system_build_type">Build type</string>
+    <!-- The title of model item under system category -->
+    <string name="system_model">Model</string>
+    <!-- The title of produce item under system category -->
+    <string name="system_product">Product</string>
+    <!-- The title of SDK version item under system category -->
+    <string name="system_sdk_version">SDK version</string>
+    <!-- The title of release item under system category -->
+    <string name="system_release">Release</string>
+    <!-- The title of incremental version item under system category -->
+    <string name="system_incremental_version">Incremental version</string>
+    <!-- The title of code name item under system category -->
+    <string name="system_code_name">Codename</string>
+    <!-- Do not translate. The title of board item under system category -->
+    <string name="system_board">Board</string>
+    <!-- The title of brand item under system category -->
+    <string name="system_brand">Brand</string>
+    <!-- The title of running applications item under system category -->
+    <string name="system_running_applications">Running applications</string>
+    <!-- The title of system log item under system category -->
+    <string name="system_system_log">System log</string>
+    <!-- The title of event log item under system category -->
+    <string name="system_event_log">Event log</string>
+    <!-- The title of crash category under preview page -->
+    <string name="preview_crash_category">Crash</string>
+    <!-- The title of exception class name item under crash category -->
+    <string name="crash_exception_class">Exception class name</string>
+    <!-- The title of source file item under crash category -->
+    <string name="crash_source_file">Source file</string>
+    <!-- The title of source class item under crash category -->
+    <string name="crash_source_class">Source class</string>
+    <!-- The title of source method item under crash category -->
+    <string name="crash_source_method">Source method</string>
+    <!-- The title of line number item under crash category -->
+    <string name="crash_line_number">Line number</string>
+    <!-- The title of stack trace item under crash category -->
+    <string name="crash_stack_trace">Stack trace</string>
+    <!-- The title of ANR (application not response) category under preview page -->
+    <string name="preview_anr_category">Application not responding (ANR)</string>
+    <!-- The title of activity name item under ANR category -->
+    <string name="anr_activity">Activity</string>
+    <!-- The title of caused by item under ANR category -->
+    <string name="anr_caused_by">Caused by</string>
+    <!-- The title of additional info item under ANR category -->
+    <string name="anr_additional_info">Additional info</string>
+    <!-- The title of stack trace item under ANR category -->
+    <string name="anr_stack_traces">ANR stack traces</string>
+    <!-- The title of system crash category under preview page -->
+    <string name="preview_system_crash_category">System crash</string>
+    <!-- The title of system crash log item under system crash category -->
+    <string name="system_crash_log">Log file</string>
+    <!-- The title of log file item under system crash category or crash category -->
+    <string name="log_file">Log file %s</string>
+    <!-- Do not translate. The number of log file number 1 -->
+    <string name="log_file_number_1">1</string>
+    <!-- Do not translate. The number of log file number 2 -->
+    <string name="log_file_number_2">2</string>
+    <!-- The title of radio & location data category under preview page -->
+    <string name="preview_radio_category">Radio location data</string>
+    <!-- The title of radio MCC (mobile country code) under radio & location data category -->
+    <string name="radio_mcc">Mobile country code (MCC)</string>
+    <!-- The title of radio MNC (mobile network code) under radio & location data category -->
+    <string name="radio_mnc">Mobile network code (MNC)</string>
+    
+    <!-- The message of system crash dialog. User can decide to report system crash log or not in this dialog -->
+    <string name="msg_system_crash">This phone just recovered from an abnormal reset. Would you like to send an error report to HTC? This will help us improve our products.</string>
+    <!-- The message of system crash notification. User can tap notification to report system crash log -->
+    <string name="msg_system_crash_notify">Send system report to HTC</string>
+    <!-- The message of application crash dialog. -->
+    <string name="msg_app_crash"><xliff:g id="name">%s</xliff:g> has stopped unexpectedly. Would you like to send an error report to HTC? This will help us improve our products.</string>
+    <!-- The message of application crash dialog when auto-report option is checked. -->
+    <string name="msg_app_crash_auto"><xliff:g id="name">%s</xliff:g> has stopped unexpectedly. An error report will be sent to HTC to help us improve our products.</string>
+    <!-- The message of application crash dialog. -->
+    <string name="msg_app_anr"><xliff:g id="name">%s</xliff:g> is not responding. Would you like to send an error report to HTC? This will help us improve our products.</string>
+    <!-- The message of application crash dialog when auto-report option is checked. -->
+    <string name="msg_app_anr_auto"><xliff:g id="name">%s</xliff:g> is not responding. An error report will be sent to HTC to help us improve our products.</string>
+    <!-- The message of progress dialog waiting for log complete. -->
+    <string name="msg_wait_log_complete">Collecting log information...</string>
+    <!-- [END] HTC Feedback Client -->
+    
+    <!-- The title of error log item under feedback client setting page -->
+    <string name="feedback_error_report_title">Error reporting</string>
+    <!-- The title of error report enable/disable item under feedback client setting page -->
+    <string name="feedback_error_report_setting">Report errors to HTC</string>
+    <!-- The title of application log item under feedback client setting page -->
+    <string name="feedback_application_log_title">Usage reporting</string>
+    <!-- The title of application log enable/disable item under feedback client setting page -->
+    <string name="feedback_application_log_setting">Report usage to HTC</string>
+    <!-- The summary of application log enable/disable item under feedback client setting page -->
+    <string name="feedback_application_log_summary">Send your usage log to HTC to help us improve HTC products and services</string>
+    <!-- The title of network preference item under feedback client setting page -->
+    <string name="feedback_network_setting">Send error and usage reports</string>
+    <!-- The title of network preference item under feedback client setting page for errror report only -->
+    <string name="feedback_network_setting_error_only">Send error reports</string>
+    
+    <!-- The label of permission -->
+    <string name="permlab_feedback">Feedback permission</string>
+    <!-- The description of permission -->
+    <string name="permdesc_feedback">To prevent application component launched by malicious intent</string>
+    
+    <!-- ReportAgent part, begin -->
+    <!-- Do not translate. This is private permission label for uploading log -->
+    <string name="permlab_uploadLog">label of uploading log</string>
+    <!-- Do not translate. This is private permission descriptions for uploading log -->
+    <string name="permdesc_uploadLog">descriptions of uploading log</string>
+    <!-- ReportAgent part, end -->
+    
+    <!-- The label of HTC Corporation -->
+    <string name="nn_htc_corporation">HTC Corporation</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2008 HTC Corp. All Rights Reserved. -->
+<!-- For HTC defined color values -->
+<resources>
+    <!-- ListItem Designer replace color drawable instead Bill Lin -->
+    <drawable name="list_selector_background_pressed">@color/focused_color</drawable>
+    <!-- ListItem Designer replace color drawable instead Bill Lin -->
+
+       <!-- HtcListItemSeparator Color -->
+       <drawable name="section_b_divider_top">#373737</drawable>
+       <drawable name="section_divider_top">#f5f7fa</drawable>
+
+    <!-- HtcSpinner Color -->
+    <color name="htcspinner">#10000000</color>
+    <color name="HtcAutoCompleteTextView_color_empty">#ffff0000</color>
+    <color name="HtcEditText_color_empty">#ffb4b4b4</color>
+    <color name="HtcGridItemBase_OverlayColor">#b3000000</color>
+    <color name="HtcGridItemOverlayImage_OverlayColor">#99000000</color>
+    <color name="HtcExpandableListView_childItem_backgroundColor">#CFCFCF</color>
+    <color name="HtcExpandableListView_childItem_backgroundColor_dark">#202020</color>
+    <color name="HtcButtonTheme">#60D7D7D7</color>
+    <color name="HtcButtonColorDepp">#40060606</color>
+    <color name="HtcButtonColorShallow">#70FFFFFF</color>
+    <color name="htcProgressBar_buffer_color">#7ffa3d45</color>
+</resources>

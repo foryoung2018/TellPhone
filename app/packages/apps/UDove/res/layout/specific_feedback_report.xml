@@ -1,0 +1,71 @@
+<LinearLayout android:id="@+id/content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <EditText android:id="@+id/desc_edit" 
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="top"
+                android:hint="@string/report_feedback_summary"
+                android:singleLine="true"
+                android:capitalize="sentences"
+                android:textCursorDrawable="@null">
+			</EditText>
+            
+            <TextView
+                android:id="@+id/preview_link"
+	            android:text="@string/report_preview_link"
+	            android:textColor="@color/all_hyperlink_color"
+	            android:textSize="17sp"
+	            android:layout_marginStart="16dp"
+	            android:layout_marginEnd="16dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+            
+            <TextView
+	            android:id="@+id/report_note"
+	            android:textColorLink="@color/all_hyperlink_color"
+	            android:textSize="17sp"
+	            android:layout_marginStart="16dp"
+	            android:layout_marginEnd="16dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+    
+    <LinearLayout style="?android:attr/buttonBarStyle"
+        android:orientation="horizontal"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+		<Button style="?android:attr/buttonBarButtonStyle"
+	 	   	android:id="@+id/cancel_btn"
+	 	   	android:layout_width="0dp"
+       		android:layout_height="wrap_content"
+       		android:layout_weight="1"
+       		android:text="@string/btn_feedback_cancel" />
+		<Button style="?android:attr/buttonBarButtonStyle"
+		    android:id="@+id/send_btn"
+		    android:layout_width="0dp"
+      		android:layout_height="wrap_content"
+      		android:layout_weight="1"
+       		android:text="@string/btn_feedback_send" />
+	</LinearLayout>
+       
+</LinearLayout>

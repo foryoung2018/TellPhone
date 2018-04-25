@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.htc.sense.commoncontrol.demo.htcswitch.HtcSwitchDemo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/htcSwitchDemo" />
+
+        <TextView
+            style="@style/list_primary_l_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HtcSwitch:"
+            android:textColor="?android:colorForeground" />
+
+        <com.htc.lib1.cc.widget.HtcSwitch
+            android:id="@+id/mySwitchLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/list_primary_l_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Switch:"
+            android:textColor="?android:colorForeground" />
+
+        <Switch
+            android:id="@+id/myGoogleSwitchLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <com.htc.lib1.cc.widget.HtcListView
+        android:id="@+id/switch_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

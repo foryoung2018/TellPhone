@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/guest/newspace/Error%20report/hdk/htc/lib1/UserAgree/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Tento dialog již příště nezobrazovat</string>
+    <string name="default_message">Tato aplikace využívá mobilní data nebo Wi-Fi. U místního operátora zjistěte přesné sazby za využívání dat.</string>
+</resources>

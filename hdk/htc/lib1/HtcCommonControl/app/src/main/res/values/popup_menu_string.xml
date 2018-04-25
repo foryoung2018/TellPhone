@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="popup_menu_expandable">ExpandablePopupMenu</string>
+    <string name="popup_menu_expandable_wrapper">Wrapper/Expandable</string>
+    <string name="popup_menu_expandable_list">Wrapper/ListPopupMenu</string>
+    <string-array name="popup_menu_expandable_name">
+        <item>Abbaye de Belloc</item>
+        <item>Abbaye du Mont des Cats</item>
+        <item>Abertam</item>
+        <item>Abondance</item>
+        <item>Ackawi</item>
+        <item>Acorn</item>
+        <item>Adelost</item>
+        <item>Affidelice au Chablis</item>
+        <item>Afuega\'l Pitu</item>
+        <item>Airag</item>
+        <item>Airedale</item>
+        <item>Aisy Cendre</item>
+        <item>Allgauer Emmentaler</item>
+        <item>Alverca</item>
+        <item>Ambert</item>
+        <item>American Cheese</item>
+        <item>Ami du Chambertin</item>
+        <item>Anejo Enchilado</item>
+        <item>Anneau du Vic-Bilh</item>
+        <item>Anthoriro</item>
+        <item>Appenzell</item>
+        <item>Aragon</item>
+        <item>Ardi Gasna</item>
+        <item>Ardrahan</item>
+        <item>Armenian String</item>
+    </string-array>
+    <string-array name="popup_menu_expandable_listitem">
+        <item>listitem1</item>
+        <item>listitem2</item>
+        <item>listitem3</item>
+        <item>listitem4</item>
+        <item>listitem5</item>
+        <item>listitem6</item>
+    </string-array>
+    <string-array name="popup_menu_expandable_groups">
+        <item>People Names</item>
+        <item>Dog Names</item>
+        <item>Cat Names</item>
+        <item>Fish Names</item>
+    </string-array>
+    <string-array name="popup_menu_expandable_children">
+        <item>"Arnold", "Barry", "Chuck", "David"</item>
+        <item>"Ace", "Bandit", "Cha-Cha", "Deuce"</item>
+        <item>"Fluffy", "Snuggles"</item>
+        <item>"Goldy", "Bubbles"</item>
+    </string-array>
+    <string-array name="popup_menu_demo_listitem">
+        <item>listitem1</item>
+        <item>listitem2</item>
+        <item>listitem3</item>
+        <item>listitem4</item>
+        <item>listitem5</item>
+        <item>listitem6</item>
+        <item>listitem7</item>
+        <item>listitem8</item>
+        <item>listitem9</item>
+        <item>listitem10</item>
+    </string-array>
+    <string name="popup_menu_separator">popupMenu separator</string>
+    <string name="popup_menu_fling">Text fLing 0, 2text, secondary text is gone.</string>
+    <string name="popup_menu_fling1_primary">Text fLing 1, 2text primary</string>
+    <string name="popup_menu_fling1_secondary">Text fLing 1, 2text secondary</string>
+    <string name="popup_menu_fling2">Text fLing 2</string>
+    <string name="popup_menu_fling2_stamp">Text fLing 2, 2text with 2stamp</string>
+    <string name="popup_menu_fling2_exchange">Exchange</string>
+    <string name="popup_menu_fling3">Text fLing 3</string>
+    <string name="popup_menu_fling3_text">Text fLing 3, QuickBadge, 2text</string>
+    <string name="popup_menu_fling4">Text fLing 4</string>
+    <string name="popup_menu_fling4_text">Text fLing 4, 2text with checkbox</string>
+    <string name="popup_menu_list_keepshow">KeepShowAtOrientation</string>
+    <string name="popup_menu_list_longtext">You should set content width like the top example. If you don\&apos;t set it, it will show up with the anchor view width. The bottom button is the wrong example.</string>
+    <string name="popup_menu_list_button">Button2</string>
+</resources>

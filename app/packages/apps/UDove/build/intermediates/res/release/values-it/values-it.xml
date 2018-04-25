@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string-array name="st_font_size_levels">
+        <item>Piccolo</item><!--Small-->
+        <item>Medio</item><!--Medium-->
+        <item>Grande</item><!--Large-->
+        <item>Molto grande</item><!--Extra large-->
+        <item>Enorme</item><!--Huge-->
+    </string-array>
+    <string-array name="weeklayout_secondary_text">
+        <item>D</item><!--SU-->
+        <item>L</item><!--M-->
+        <item>Ma</item><!--TU-->
+        <item>Me</item><!--W-->
+        <item>G</item><!--TH-->
+        <item>V</item><!--F-->
+        <item>S</item><!--SA-->
+    </string-array>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string name="accessibility_tap_action">Toccare due volte per l\'azione</string>
+    <string name="add_comments">Aggiungi commento</string>
+    <string name="am">AM</string>
+    <string name="button_hide_caption">Nascondi didascalia</string>
+    <string name="button_hide_description">Nascondi descrizione</string>
+    <string name="button_show_caption">Mostra didascalia</string>
+    <string name="button_show_description">Mostra descrizione</string>
+    <string name="carousel_title">Modifica schede</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-it/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Un\'applicazione richiede l\'aggiornamento dell\'app Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Questa app funzionerà solo dopo avere aggiornato Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Aggiorna Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Attiva Google Play Services"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"L\'app non funzionerà se non attivi Google Play Services."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Richiesta da <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installa Google Play Services"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"L\'app non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"L\'app non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installa Google Play Services"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"L\'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Account non valido"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Un\'applicazione richiede l\'attivazione di Google Play Services."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"È necessaria una connessione dati per connettersi a Google Play Services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Errore di rete"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Un\'applicazione richiede l\'installazione di Google Play Services."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Un\'applicazione richiede un aggiornamento di Google Play Services."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Errore Google Play Services"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problema sconosciuto con Google Play Services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"La piattaforma Google Play Services, su cui sono basate alcune delle tue applicazioni, non è supportata dal dispositivo in uso. Per assistenza, contatta il produttore."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aggiorna"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"L\'app non funzionerà se non aggiorni Google Play Services."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Aggiorna Google Play Services"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Apri sul telefono"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Accedi"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string name="common_string_hint_search_people">Cerca persone</string>
+    <string name="common_string_open_contact">Apri contatto</string>
+    <string name="common_string_save_to_existing_contact">Salva in contatto esistente</string>
+    <string name="common_string_save_to_people">Salva in Contatti</string>
+    <string name="common_string_share_title">Condividi tramite</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1/UserAgree/unspecified/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string name="default_checkbox">Non chiedere di nuovo</string>
+    <string name="default_message">L\'applicazione usa i dati mobile o il Wi-Fi. Verificare con l\'operatore locale per conoscere i costi esatti per l\'utilizzo dei dati.</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string name="done">Fine</string>
+    <string name="label_day">Giorno</string>
+    <string name="label_hour">Ora</string>
+    <string name="label_minute">Minuto</string>
+    <string name="label_month">Mese</string>
+    <string name="label_second">Secondo</string>
+    <string name="label_year">Anno</string>
+    <string name="license_dialog_content">Alcune icone utilizzate su questo telefono sono state studiate originariamente da Google e modificate da HTC secondo la <a href="https://creativecommons.org/licenses/by/4.0/legalcode">licenza di attribuzione Creative Commons 4.0</a>.</string>
+    <string name="license_dialog_title">Google Material Icons</string>
+    <string name="ls_doubletap_drag">toccare due volte o trascinare per regolare</string>
+    <string name="ls_edit_number_before_calling">Modifica numero prima di chiamare</string>
+    <string name="ls_open_in_map">Apri nella mappa</string>
+    <string name="ls_tablet_storage_error">Si è verificato un errore nella memoria del tablet. Riavviare il dispositivo o formattare la memoria.</string>
+    <string name="menu_crop">Ritaglia</string>
+    <string name="menu_delete">Elimina</string>
+    <string name="menu_properties">Dettagli</string>
+    <string name="menu_protect_info">Info protezione</string>
+    <string name="menu_save_to_my_favorite">Imposta come preferito</string>
+    <string name="menu_send_photo_link_by_email">Condividi collegamento foto</string>
+    <string name="menu_set_as">Imposta come</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="menu_share">Condividi</string>
+    <string name="menu_show_on_map">Mostra su mappa</string>
+    <string name="menu_slideshow">Presentazione</string>
+    <string name="menu_view_full">Visualizza</string>
+    <string name="menu_view_video">Riproduci</string>
+    <string name="meun_rotate">Ruota</string>
+    <string name="nn_unknown_error">"Errore sconosciuto"</string>
+    <string name="no">No</string>
+    <string name="pm">PM</string>
+    <string name="quickselection_share">Condividi tramite</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="reminderview_common_unlock_hint_icon">Trascinare l\'icona in alto</string>
+    <string name="reminderview_common_unlock_hint_up">Spostare verso l\'alto per sbloccare</string>
+    <string name="st_action_bar_pull_down">RILASCIARE PER AGGIORNARE</string>
+    <string name="st_action_bar_updating">AGGIORNAMENTO IN CORSO...</string>
+    <string name="st_draggable_item">Elemento trascinabile</string>
+    <string name="st_loading">Caricamento in corso...</string>
+    <string name="st_more">Altro</string>
+    <string name="st_pull_down_refresh">Scorri in basso per aggiornare</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/build/intermediates/exploded-aar/UDove.............hdk.htc.lib1.HtcCommonControl/htccommoncontrol/unspecified/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string name="tab_remove_dialog_message">È rimasta solo una scheda. Per aggiungere altre schede per l\'applicazione, scegliere Modifica schede/Filtri nel menu.</string>
+    <string name="unremovable_warning_text">Impossibile rimuovere questa scheda</string>
+    <string name="va_back">Indietro</string>
+    <string name="va_call">Chiama</string>
+    <string name="va_cancel">Annulla</string>
+    <string name="va_clear">"Cancella"</string>
+    <string name="va_close">Chiudi</string>
+    <string name="va_copy">Copia</string>
+    <string name="va_download">Download</string>
+    <string name="va_downloading">Download in corso</string>
+    <string name="va_finish">Completata</string>
+    <string name="va_hide">"Nascondi"</string>
+    <string name="va_move_above">Sposta sopra</string>
+    <string name="va_move_below">Sposta sotto</string>
+    <string name="va_next">Avanti</string>
+    <string name="va_ok">OK</string>
+    <string name="va_open">Apri</string>
+    <string name="va_reset">Ripristina</string>
+    <string name="va_send_mail">Invia e-mail</string>
+    <string name="va_send_message">Invia messaggio</string>
+    <string name="va_show_all">Mostra tutti</string>
+    <string name="yes">Sì</string>
+</resources>

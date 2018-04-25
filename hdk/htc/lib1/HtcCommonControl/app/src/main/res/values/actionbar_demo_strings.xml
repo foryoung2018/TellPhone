@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dropdown_primary">DropDownPrimary12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</string>
+    <string name="dropdown_secondary">DropDownSecondary123456789012345678901234567890123456789012345678901234567890</string>
+
+    <string name="actionbar_text_primary">TextPrimary123456789012345678901234567890123456789012345678901234567890</string>
+    <string name="actionbar_text_secondary">TextSecondary123456789012345678901234567890123456789012345678901234567890</string>
+    
+    <string name="pullDown_title">Release to whatever you want</string>
+    <string name="pullDown_update">Updating... (123/1234)</string>
+    <string name="pullDown_update_secondary">LAST UPDATED 2012/12/12 12:12 PM</string>
+
+</resources>

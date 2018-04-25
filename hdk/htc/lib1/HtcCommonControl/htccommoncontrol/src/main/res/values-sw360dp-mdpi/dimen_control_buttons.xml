@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="progress_button_stroke_small">2dp</dimen>
+    <dimen name="progress_button_stroke_middle">2dp</dimen>
+
+</resources>

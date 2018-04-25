@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- From sense 8, to apply Android Preference style on TextView, follow the format of
+     @+android:id/summary from frameworks/base/core/res/res/layout/preference.xml in M60. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="15dip"
+    android:paddingEnd="6dip"
+    android:paddingTop="6dip"
+    android:paddingBottom="6dip"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="?android:attr/textColorSecondary" >
+    <TextView
+        android:id="@+id/setting_note"
+        android:text="@string/setting_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorLink="@color/all_hyperlink_color"/>
+    <TextView
+        android:id="@+id/warning_text"
+        android:text="@string/debug_setting_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"/>       
+</LinearLayout><!-- From: file:/home/guest/newspace/Error%20report/app/packages/apps/UDove/res/layout/specific_feedback_toslink.xml -->

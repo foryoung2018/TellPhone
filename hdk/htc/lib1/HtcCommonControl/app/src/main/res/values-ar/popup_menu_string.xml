@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="popup_menu_expandable">توسيع القائمة المنبثقة</string>
+    <string name="popup_menu_expandable_wrapper">الغلاف / توسيع</string>
+    <string name="popup_menu_expandable_list">الغلاف / قائمة منبثقة</string>
+    <string-array name="popup_menu_expandable_name">
+        <item>ابباي د بلو</item>
+        <item>ابباي دو مونت هل القطط</item>
+        <item>آبرت</item>
+        <item>سندات</item>
+        <item>يك وي</item>
+        <item>بلوط</item>
+        <item>اد فقدت</item>
+        <item>ديليس أو نبيذ</item>
+        <item>اويه حفرة</item>
+        <item>عيرا</item>
+        <item>كلب الصيد</item>
+        <item>الجيش الاسلامي للانقاذ سين</item>
+        <item>جميع گوئر منة الر</item>
+        <item>الفيركا</item>
+        <item>أنا بيرت</item>
+        <item>جبنة أمريكية</item>
+        <item>آمي دو القاعة</item>
+        <item>انو كل</item>
+        <item>دو فيك بالبترون</item>
+        <item>سباق</item>
+        <item>ابنزيل</item>
+        <item>أراغون</item>
+        <item>أردي</item>
+        <item>اردر</item>
+        <item>الأرمن سلسلة</item>
+    </string-array>
+    <string-array name="popup_menu_expandable_listitem">
+        <item>البند 1 من القئمة</item>
+        <item>البند 2 من القائمة</item>
+        <item>البند 3 من القائمة</item>
+        <item>البند 4 من القائمة</item>
+        <item>البند 5 من القائمة</item>
+        <item>البند 6 من القائمة</item>
+    </string-array>
+    <string-array name="popup_menu_expandable_groups">
+        <item>أسماء الناس</item>
+        <item>أسماء الكلب</item>
+        <item>القط اسماء</item>
+        <item>أسماء الأسماك</item>
+    </string-array>
+    <string-array name="popup_menu_expandable_children">
+        <item>"ارنولد", "باري", "تشاك", "ديفيد"</item>
+        <item>"ايس", "قاطع الطريق", "تشاتشا", "شيطان"</item>
+        <item>"رقيق", "يتحاضن"</item>
+        <item>"جولدي", "فقاعات"</item>
+    </string-array>
+    <string-array name="popup_menu_demo_listitem">
+        <item>البند 1 من القائمة</item>
+        <item>البند 2 من القائمة</item>
+        <item>البند 3 من القائمة</item>
+        <item>البند 4 من القائمة</item>
+        <item>البند 5 من القائمة</item>
+        <item>البند 6 من القائمة</item>
+        <item>البند 7 من القائمة</item>
+        <item>البند 8 من القائمة</item>
+        <item>البند 9 من القائمة</item>
+        <item>البند 10 من القائمة</item>
+    </string-array>
+    <string name="popup_menu_separator">القائمة المنبثقة فاصل</string>
+    <string name="popup_menu_fling">النص قذف 0، 2 النص، النص الثانوي ذهب.</string>
+    <string name="popup_menu_fling1_primary">النص قذف 1 و 2 النص الرئيسي</string>
+    <string name="popup_menu_fling1_secondary">النص قذف 1 و 2 النص الثانوي</string>
+    <string name="popup_menu_fling2">2 قذف النص </string>
+    <string name="popup_menu_fling2_stamp">قذف النص 2 النص 2 مع 2 ختم</string>
+    <string name="popup_menu_fling2_exchange">تبادل</string>
+    <string name="popup_menu_fling3">3 قذف النص </string>
+    <string name="popup_menu_fling3_text">2 النص قذف 3 سريعة شارة النص </string>
+    <string name="popup_menu_fling4">4 قذف النص </string>
+    <string name="popup_menu_fling4_text">قذف نص 4، 2 مربع للنص</string>
+    <string name="popup_menu_list_keepshow">يبقى شو في التوجه</string>
+    <string name="popup_menu_list_longtext">يجب وضع محتوى العرض مثل المثال الأعلى.إذا كنت ارتداء \&apos; ر تعيين، سوف يظهر مع مذيعة عرض العرض.أسفل الزر الخطأ مثال.</string>
+    <string name="popup_menu_list_button">2 زر </string>
+</resources>

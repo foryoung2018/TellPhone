@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Refer to HtcPowerManager's colors.xml -->
+
+    <!-- ActionBar color -->
+    <color name="htc_settings_actionbar_color">#ff243036</color>
+    <color name="htc_settings_actionbar_color_o">#f5f5f5</color>
+
+</resources>

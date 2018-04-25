@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="HtcCompoundButton">
+        <item name="android:src">@null</item>
+        <item name="android:disabledAlpha">0.4</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcCheckBox">
+        <item name="android:drawable">@drawable/common_circle_pressed</item>
+        <item name="android:icon">@drawable/common_checkbox_rest</item>
+        <item name="android:track">@drawable/common_b_checkbox_rest</item>
+        <item name="android:thumb">@drawable/common_checkbox_on</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcCheckBox.Light">
+        <item name="android:track">@drawable/common_checkbox_rest</item>
+        <item name="android:disabledAlpha">0.5</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcRadioButton">
+        <item name="android:drawable">@drawable/common_b_circle_outer</item>
+        <item name="android:icon">@drawable/common_b_circle_outer</item>
+        <item name="android:track">@drawable/common_radio_rest_dark</item>
+        <item name="android:thumb">@drawable/common_radio_rest_dark</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcRadioButton.Light">
+        <item name="android:drawable">@drawable/common_circle_outer</item>
+        <item name="android:icon">@drawable/common_circle_outer</item>
+        <item name="android:track">@drawable/common_radio_rest_light</item>
+        <item name="android:thumb">@drawable/common_radio_rest_light</item>
+        <item name="android:disabledAlpha">0.5</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcDeleteButton">
+        <item name="android:drawable">@drawable/common_circle_pressed</item>
+        <item name="android:icon">@drawable/common_checkbox_rest</item>
+        <item name="android:track">@drawable/common_checkbox_rest</item>
+        <item name="android:thumb">@drawable/common_delete_on</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcDeleteButton.Light">
+        <item name="android:disabledAlpha">0.5</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcLoveButton">
+        <item name="android:drawable">@null</item>
+        <item name="android:icon">@drawable/common_collect_rest</item>
+        <item name="android:track">@drawable/common_collect_rest</item>
+        <item name="android:thumb">@drawable/common_collect_rest</item>
+        <item name="android:disabledAlpha">0.5</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcFlagButton">
+        <item name="android:drawable">@null</item>
+        <item name="android:icon">@null</item>
+        <item name="android:track">@drawable/common_flag_rest</item>
+        <item name="android:thumb">@drawable/common_flag_on</item>
+        <item name="android:disabledAlpha">0.5</item>
+    </style>
+
+    <style name="HtcCompoundButton.HtcStarButton">
+        <item name="android:drawable">@null</item>
+        <item name="android:icon">@drawable/common_rating_rest</item>
+        <item name="android:track">@drawable/common_rating_rest</item>
+        <item name="android:thumb">@drawable/common_rating_rest</item>
+        <item name="android:disabledAlpha">0.5</item>
+    </style>
+
+</resources>
